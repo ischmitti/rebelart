@@ -1,0 +1,22 @@
+{
+  "name": "rebartist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.0",
+    "autoprefixer": "^10.4.2",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy-img": "^1.0.0",
+    "bootstrap": "^5.1.3"
+  }
+}

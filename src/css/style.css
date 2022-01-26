@@ -1,0 +1,57 @@
+
+body{
+    background: rgb(23,23,23);
+    background: radial-gradient(circle, rgb(31, 31, 31) 0%, rgba(17,17,17,1) 100%);
+    color: white;
+}
+
+footer{
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+}
+
+
+/*************** HOME ****************/
+
+
+
+#welcome{
+height: 100vh;
+}
+
+.welcome-hero{
+    height: 90vh;
+    background-color: burlywood;
+}
+
+.container-feature{
+    padding: 0 8%;
+    height: 75vh;
+}
+
+.feature-image{
+    width: 100%;
+}
+
+
+.placeholder{
+    height: 60vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+.example{
+    width: 100px;
+    height: 100px;
+}
+
+
+/*************** GALLERY ****************/
+
+
+.hero-gallery{
+    height: 90vh;
+}
+
