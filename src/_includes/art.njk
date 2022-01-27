@@ -1,12 +1,18 @@
 ---
-layout: "base.njk"
+layout: 'base.njk'
 ---
 
-
-<article class="main-article">
-    <div>
-        
-
-
-
-    </div>
+    <div class="container-fluid art-container">
+       <div class="row hero-art align-items-center justify-content-center">
+            <div class="col-sm-12 col-md-6 description-col">
+                <h1 class="article-title">{{ title }}</h1>
+                <p class="article-description">{{ description }}</p>
+            </div>
+            <div class="col-sm-12 col-md-6 image-col">
+                <img class="art-image" src="{{ image }}" alt="{{ imageAlt }}">
+            </div>
+        </div>
+          <div class="art-content">
+            {{ content | safe }}
+            </div>
+        </div>
