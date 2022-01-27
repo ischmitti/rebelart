@@ -1,7 +1,7 @@
 
 body{
     background: rgb(23,23,23);
-    background: radial-gradient(circle, rgb(31, 31, 31) 0%, rgba(17,17,17,1) 100%);
+    background: radial-gradient(circle, rgb(17, 17, 17) 0%, rgb(0, 0, 0) 100%);
     color: white;
 }
 
@@ -12,6 +12,21 @@ footer{
     padding: 40px 0;
 }
 
+.container-fluid{
+    padding: 0 5%;    
+}
+
+.navbar{
+    background-color: #131313;
+}
+
+.navbar-nav{
+    float:right;
+}
+
+.nav-link{
+    margin-left: 1.5em;
+}
 
 /*************** HOME ****************/
 
@@ -22,36 +37,60 @@ height: 100vh;
 }
 
 .welcome-hero{
-    height: 90vh;
+    height: 85vh;
     background-color: burlywood;
 }
 
 .container-feature{
-    padding: 0 8%;
-    height: 75vh;
+    padding: 3% 10%;
 }
 
-.feature-image{
-    width: 100%;
+.featured-image{
+    width: 90%;
+    
+}
+.feature-description{
+
 }
 
 
-.placeholder{
-    height: 60vh;
-    width: 100%;
-    background-color: bisque;
-}
-
-.example{
-    width: 100px;
-    height: 100px;
+.first-feature-desc, .third-feature-desc{
+    text-align: right;
 }
 
 
 /*************** GALLERY ****************/
 
 
+
+
+
 .hero-gallery{
-    height: 90vh;
+    height: 10vh;
 }
 
+.gallery-image{
+    width: 100%;
+}
+
+.image-container{
+    padding: 2%;
+}
+
+
+/*************** ART POST ****************/
+
+
+.art-image{
+    width: 70%;
+}
+
+.art-container{
+    margin-top: 10%;
+}
+
+.art-content{
+    margin: 10% auto 0 auto;
+    padding:0 12%;
+
+}

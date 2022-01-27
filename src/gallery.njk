@@ -1,19 +1,20 @@
 ---
-layout: base.njk
-title: Gallery
+layout: 'base.njk'
 ---
 
 
 <section id="gallery">
     <div class="hero-gallery">
         </div>
-    <div class="container">
+    <div class="container-fluid">
+            <div class="row" data-masonry='{"percentPosition": true }'>
         {%- for post in collections.post | reverse-%}
-            <li>
-                <h3>{{ post.data.title }}</h3>
-                <p>{{ post.data.description}}</p>
-                <a href="{{ post.url }}" class="btn btn-light btn--primary">Weiterlesen</a>
-                </li>
+                        <div class="col-sm-12 col-md-6 col-lg-4 image-container">
+                            <a class="image-link" href="{{ post.url }}">
+                          <img class="gallery-image" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+                                </a>
+                        </div>
         {%- endfor -%}
+            </div>
         </div>
 </section>
