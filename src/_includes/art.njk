@@ -1,18 +1,27 @@
 ---
 layout: 'base.njk'
 ---
-
-    <div class="container-fluid art-container">
-       <div class="row hero-art align-items-center justify-content-center">
-            <div class="col-sm-12 col-md-6 description-col">
-                <h1 class="article-title">{{ title }}</h1>
+<section class="container-layout">
+    <div class="art-container">
+       <div class="row hero-art align-items-center">
+            <div class="col-xl-6 art-description-col">
+                <h2 class="article-title">{{ title }}</h2>
                 <p class="article-description">{{ description }}</p>
             </div>
-            <div class="col-sm-12 col-md-6 image-col">
+            <div class="col-xl-6 art-image__col">
                 <img class="art-image" src="{{ image }}" alt="{{ imageAlt }}">
             </div>
         </div>
           <div class="art-content">
             {{ content | safe }}
-            </div>
+        <a class="explore-more" href="/gallery"><i class="fas fa-long-arrow-alt-left fa-lg space"></i> Explore More</a>
         </div>
+    </div>
+    <script>
+        if(document.getElementsByTagName("img")[0].offsetHeight > 700){
+            console.log("hello world")
+            document.getElementsByTagName("img")[0].style.width = "70%";
+        }
+        
+    </script>
+</section>
