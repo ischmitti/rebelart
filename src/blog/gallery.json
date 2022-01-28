@@ -1,4 +1,4 @@
 {
-    "layout": "art.njk",
+    "layout": "/_includes/art.njk",
     "tags": "post"
 }
