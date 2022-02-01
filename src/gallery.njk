@@ -4,9 +4,8 @@ title: Gallery
 ---
 
 
-<section id="container-layout">
+<div class="container-layout">
     <div class="hero-gallery">
-        </div>
     <div class="container-fluid">
             <div class="row align-items-center" data-masonry='{"percentPosition": true }' >
         {%- for post in collections.post | reverse-%}
@@ -18,7 +17,7 @@ title: Gallery
         {%- endfor -%}
             </div>
         </div>
-
+    </div>
     <script>
         window.addEventListener("load", function(){
 
@@ -29,4 +28,4 @@ title: Gallery
         });
     </script>   
 
-</section>
+</div>

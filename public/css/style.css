@@ -5,11 +5,23 @@ body{
 }
 
 footer{
-    height: 100px;
-    align-items: center;
+    min-height: 80px;
     text-align: center;
-    padding: 40px 0;
+    margin: 5% 0 2%;
 }
+
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+.icon{
+    margin: 0 2.5%;
+    color:#007A78;
+}
+
 
 
 h1, h2, h3, h4, h5, h6{
@@ -282,7 +294,7 @@ p, a{
 
 
 .hero-gallery{
-    height: 10vh;
+    padding: 5%;
 }
 
 .gallery-image{
@@ -390,3 +402,60 @@ p, a{
     }
 
 }
+
+
+/*************** ABOUT ****************/
+
+.about-container {
+    min-height: 70vh;
+    margin:auto;
+    padding: 12% 10% 2% 10%;
+}
+
+.left-about__col{
+    text-align: right;
+
+}
+
+.right-about__col{
+    margin-top: 8%;
+}
+
+.seperator{
+    margin: auto;
+    height: 100%;
+    width: 1%;
+    border-right: 1px solid whitesmoke;
+}
+
+.about__col{
+    padding: 0;
+}
+
+.middle-about__col{
+}
+
+.about-container p{
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 300;
+}
+
+.about-container h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+
+
+@media (max-width:992){
+    .seperator{
+        margin: auto;
+        height: 10%;
+        width: 90%;
+        border-bottom: 1px solid whitesmoke;
+    }
+}
+
+
