@@ -7,21 +7,37 @@ body{
 footer{
     min-height: 80px;
     text-align: center;
-    margin: 5% 0 2%;
+    margin: 2.5% 0 2.5%;
 }
 
 .social-links{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
 }
 
 .icon{
-    margin: 0 2.5%;
+    margin: 0% 2.5%;
     color:#007A78;
 }
+.icon:hover{
+    color:whitesmoke;
+    text-decoration: none;
+    transform: scale(1.05);
+}
 
+@media (max-width: 620px) {
+    footer{
+        margin: 2.5% 0 10%;
+    }
+    .social-links{
+        margin-bottom: 4%;
+    }
+    .icon{
+        margin: 2.5% 2.5%;
+    }
+}
 
 
 h1, h2, h3, h4, h5, h6{
@@ -31,6 +47,7 @@ h1, h2, h3, h4, h5, h6{
 p, a{
     font-family: 'Ubuntu', sans-serif;
 }
+
 
 
 .navbar{
@@ -64,7 +81,6 @@ p, a{
 .navbar-nav{
     text-align: center;  
 }
-
 .nav-link{
     margin-left: .75em;
     margin-right: .75em;
@@ -72,7 +88,6 @@ p, a{
     font-size: large;
     
 }
-
 .nav-link:hover{
     color: #ccc;
     transform: scale(1.1);
@@ -81,10 +96,13 @@ p, a{
     color: white;
 }
 
+   
+
 .container-layout{
     max-width: 1920px;
     margin: auto;
 }
+
 
 /*************** HOME ****************/
 
@@ -409,7 +427,11 @@ p, a{
 .about-container {
     min-height: 70vh;
     margin:auto;
-    padding: 12% 10% 2% 10%;
+    padding: 8% 10% 2% 10%;
+}
+
+.about-desc{
+    margin-top: 5%;
 }
 
 .left-about__col{
@@ -432,9 +454,6 @@ p, a{
     padding: 0;
 }
 
-.middle-about__col{
-}
-
 .about-container p{
     font-size: 18px;
     line-height: 2;
@@ -448,14 +467,92 @@ p, a{
 
 }
 
+.typewriter{
+    word-spacing: 1px;
+    margin: auto;
+    font-family: 'VT323', monospace;
+    position:relative;
+    width: max-content;
+}
 
-@media (max-width:992){
+.typewriter::before,
+.typewriter::after{
+    content:"";
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.typewriter::before{
+    background:#131313;
+    animation: typewriting 4s steps(28) 1s forwards;
+}
+
+.typewriter::after{
+    width: 0.1em;
+    background-color: whitesmoke;
+    animation:
+    typewriting 4s steps(28) 1s forwards,
+    blink 800ms steps(28) infinite; 
+
+}
+
+@keyframes typewriting{
+    to {left: 100%}
+}
+
+@keyframes blink{
+    to {
+        background: transparent;
+    }
+}
+
+.contact-us{
+    text-align: center;
+    padding-top: 8%;
+}
+.contact-seperator{
+    margin: auto;
+    margin-top: 3.5%;
+    height: 1%;
+    width: 70%;
+    border-top: 1px solid whitesmoke;
+}
+
+@media (max-width:992px){
+
+
+    .about-container{
+        padding-top: 20%;
+    }
+
     .seperator{
-        margin: auto;
-        height: 10%;
-        width: 90%;
+        margin-top: 8%;
+        margin-bottom: 4%;
+        height: 1%;
+        width: 30%;
         border-bottom: 1px solid whitesmoke;
     }
 }
 
+@media (max-width: 620px){
 
+    .typewriter{
+        font-size: 27.5px !important;
+    }
+
+    .about-container h2{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    .left-about__col{
+        text-align: left;
+    }
+    .contact-us> a{
+        font-size: 18px;
+        line-height: 2;
+    }
+}
