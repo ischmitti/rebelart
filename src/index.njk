@@ -4,20 +4,28 @@ title: Home
 ---
 
 
-<section id="landing"></section>
-  <canvas class="webgl"></canvas>
-  <section id="sections">
-    <div class="container-layout">
+  <section id="hero">
+    <div class="hero-container">
+      <div class="row">
+        <div class="col-lg-6 feature-col"></div>
+        <div class="col-lg-6 feature-col image-col">
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="feature">
+    <div class="global-container container-all-features">
       <div class="container-feature first-feature" >
         <div class="row align-items-center need-reverse">
-          <div class="col-lg-4 feature-description left-feature__desc">
+          <div class="feature-col col-lg-4 col-xl-5 feature-description left-feature__desc">
             <h2>Have a look at the latest political art</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
                 Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
                 </p>
-                <a class="feature-link" href="/gallery">This way to our gallery<i class="fas fa-long-arrow-alt-right fa-lg space-left"></i></a>
+                <a class="feature-link" href="/gallery">This way to our gallery</a>
           </div>
-          <div class="col-lg-8 featured-image__container">
+          <div class="feature-col col-lg-8 col-xl-7 featured-image__container">
               <div class="image-overlay__left">
               </div>
               <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
@@ -26,31 +34,31 @@ title: Home
         </div>
           <div class="container-feature second__feature">
         <div class="row align-items-center">
-          <div class="col-lg-8 featured-image__container second-feature-image">
+          <div class="feature-col col-lg-8 col-xl-7 featured-image__container second-feature-image">
                 <div class="image-overlay__right">
               </div>
             <img class="featured-image right-image " src="/assets/images/olympic.jpg" alt="Lorem">
             </div> 
-          <div class="col-lg-4 feature-description right-feature__desc">
+          <div class="feature-col col-lg-4 col-xl-5 feature-description right-feature__desc">
             <h2>Our brand new NFT collections</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
                 Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
                 </p>
-                <a class="feature-link link-right" href="/nfts"><i class="fas fa-long-arrow-alt-left fa-lg space-right"></i>Our Collection</a>
+                <a class="feature-link link-right" href="/nfts">Our Collection</a>
           </div>
           </div>
         </div>
           <div class="container-feature third-feature">
         <div class="row align-items-center need-reverse">
-          <div class="col-lg-4 feature-description left-feature__desc">
+          <div class="feature-col col-lg-4 col-xl-5 feature-description left-feature__desc">
             <h2>Find out more about the artist</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
                 Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
                 </p>
-                <a class="feature-link" href="/about">Have a look<i class="fas fa-long-arrow-alt-right fa-lg space-left"></i></a>
+                <a class="feature-link" href="/about">Have a look</a>
           </div>
-          <div class="col-lg-8 featured-image__container">
-                      <div class="image-ovsserlay__left">
+          <div class="feature-col col-lg-8 col-xl-7 featured-image__container">
+                      <div class="image-overlay__left">
               </div>
               <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
             </div> 
@@ -58,5 +66,20 @@ title: Home
         </div>
       </div>
       </div>
-    </section>
+    <script>
+
+      let hero = document.getElementById("hero")
+
+      document.addEventListener("scroll", ()=>{
+        if(hero.clientHeight===window.innerHeight & scrollY >= 1){
+          if(hero.classList.contains("fadin")){
+            hero.classList.remove("fadin")
+          }
+            hero.classList.add("scrollDown")
+        }else if(hero.clientHeight=== 0 & scrollY === 0){
+            hero.classList.add("fadin")
+            hero.classList.remove("scrollDown")
+        }
+      })
+    </script>
   </section>

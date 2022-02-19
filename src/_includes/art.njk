@@ -1,14 +1,15 @@
 ---
 layout: 'base.njk'
 ---
-<section class="container-layout">
+<section class="global-container">
     <div class="art-container">
        <div class="row hero-art align-items-center">
-            <div class="col-xl-6 art-description-col">
+           <div class="col-xl-1 feature-col"></div>
+            <div class="col-xl-4 art-description-col feature-col">
                 <h2 class="article-title">{{ title }}</h2>
                 <p class="article-description">{{ description }}</p>
             </div>
-            <div class="col-xl-6 art-image__col">
+            <div class="col-xl-7 art-image__col feature-col">
                 <img class="art-image" src="{{ image }}" alt="{{ imageAlt }}">
             </div>
         </div>

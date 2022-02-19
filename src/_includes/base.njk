@@ -16,7 +16,7 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>{{title}}</title>
 </head>
-<body onload="script();">
+<body>
   <header>
   {% include 'navbar.njk' %}
   </header>
@@ -25,7 +25,7 @@
   </main>
         {% include 'footer.njk' %}
 
-
+    <script src="/js/index.js"></script>  
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -36,6 +36,6 @@
         }
       });
     }
-  </script>     
+  </script>
   </body>
 </html>

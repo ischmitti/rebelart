@@ -4,9 +4,9 @@ title: Gallery
 ---
 
 
-<div class="container-layout">
+<div class="global-container">
     <div class="hero-gallery">
-    <div class="container-fluid">
+        <h2 class="gallery-title">Welcome to our gallery. Select an image to learn more about it</h2>
             <div class="row align-items-center" data-masonry='{"percentPosition": true }' >
         {%- for post in collections.post | reverse-%}
                         <div class="col-sm-12 col-md-6 col-lg-4 image-container">
@@ -15,17 +15,6 @@ title: Gallery
                             </a>
                         </div>
         {%- endfor -%}
-            </div>
         </div>
     </div>
-    <script>
-        window.addEventListener("load", function(){
-
-            var script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js';
-            var head = document.getElementsByTagName("head")[0];
-            head.appendChild(script);
-        });
-    </script>   
-
 </div>

@@ -16,9 +16,9 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>My First Article</title>
 </head>
-<body onload="script();">
+<body>
   <header>
-  <nav class="navbar navbar-expand-md fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Navbar</a>
     <button class="navbar-toggler" id="navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,14 +48,15 @@
 </nav>
   </header>
   <main>
-            <section class="container-layout">
+            <section class="global-container">
     <div class="art-container">
        <div class="row hero-art align-items-center">
-            <div class="col-xl-6 art-description-col">
+           <div class="col-xl-1 feature-col"></div>
+            <div class="col-xl-4 art-description-col feature-col">
                 <h2 class="article-title">My First Article</h2>
                 <p class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?</p>
             </div>
-            <div class="col-xl-6 art-image__col">
+            <div class="col-xl-7 art-image__col feature-col">
                 <img class="art-image" src="/assets/images/ArmYourNation.jpg" alt="This is a test">
             </div>
         </div>
@@ -83,7 +84,7 @@
 <p> &copy 2022 Rebel Artist. All rights reserved
 </footer>
 
-
+    <script src="/js/index.js"></script>  
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -94,6 +95,6 @@
         }
       });
     }
-  </script>     
+  </script>
   </body>
 </html>

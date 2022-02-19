@@ -16,9 +16,9 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Gallery</title>
 </head>
-<body onload="script();">
+<body>
   <header>
-  <nav class="navbar navbar-expand-md fixed-top">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Navbar</a>
     <button class="navbar-toggler" id="navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,10 +50,14 @@
   <main>
             
 
-<div class="container-layout">
+<div class="global-container">
     <div class="hero-gallery">
-    <div class="container-fluid">
+        <h2 class="gallery-title">Welcome to our gallery. Select an image to learn more about it</h2>
             <div class="row align-items-center" data-masonry='{"percentPosition": true }' ><div class="col-sm-12 col-md-6 col-lg-4 image-container">
+                            <a class="image-link" href="/blog/my-sixth-article/">
+                          <img class="gallery-image" src="/assets/blog/türki.jpg" alt="türki">
+                            </a>
+                        </div><div class="col-sm-12 col-md-6 col-lg-4 image-container">
                             <a class="image-link" href="/blog/third/">
                           <img class="gallery-image" src="/assets/images/DSC_0001.jpg" alt="This is a test">
                             </a>
@@ -74,18 +78,7 @@
                           <img class="gallery-image" src="/assets/images/ArmYourNation.jpg" alt="This is a test">
                             </a>
                         </div></div>
-        </div>
     </div>
-    <script>
-        window.addEventListener("load", function(){
-
-            var script = document.createElement('script');
-            script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js';
-            var head = document.getElementsByTagName("head")[0];
-            head.appendChild(script);
-        });
-    </script>   
-
 </div>
   </main>
         <footer>
@@ -93,7 +86,7 @@
 <p> &copy 2022 Rebel Artist. All rights reserved
 </footer>
 
-
+    <script src="/js/index.js"></script>  
   <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -104,6 +97,6 @@
         }
       });
     }
-  </script>     
+  </script>
   </body>
 </html>
