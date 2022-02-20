@@ -7,7 +7,6 @@ module.exports = function (eleventyConfig){
     eleventyConfig.addPassthroughCopy("./src/js/");
     eleventyConfig.addWatchTarget("./src/js/");
 
-
     return{
         dir: {
             input: "src",

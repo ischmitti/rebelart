@@ -10,7 +10,9 @@ layout: 'base.njk'
                 <p class="article-description">{{ description }}</p>
             </div>
             <div class="col-xl-7 art-image__col feature-col">
-                <img class="art-image" src="{{ image }}" alt="{{ imageAlt }}">
+                <div class="img-magnifier-container">
+                    <img id="myimage" class="art-image" src="{{ image }}" alt="{{ imageAlt }}">
+                </div>
             </div>
         </div>
           <div class="art-content">
@@ -20,9 +22,7 @@ layout: 'base.njk'
     </div>
     <script>
         if(document.getElementsByTagName("img")[0].offsetHeight > 700){
-            console.log("hello world")
             document.getElementsByTagName("img")[0].style.width = "70%";
         }
-        
     </script>
 </section>
