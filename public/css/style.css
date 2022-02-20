@@ -3,7 +3,11 @@ body{
     color: white;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1{
+    font-family: "Londrina Outline", sans-serif;
+}
+
+h2,h3,h4,h5,h6{
     font-family: "Raleway", sans-serif;
 }
 
@@ -30,7 +34,7 @@ img{
 
 footer{
     margin-top: 4em;
-    padding: 1.5em;
+    padding: 1.4em;
     text-align: center;
 }
 
@@ -92,6 +96,10 @@ h2{
 
 .hero-image{
     width: 100%;
+}
+
+.captions-col{
+    text-align: center;
 }
 
 .image-col{
@@ -165,8 +173,9 @@ h2{
     padding: 0.25em 0;
 } 
 .gallery-title{
+    font-weight: 800;
     text-align: center;
-    padding: 0.25em 3em;
+    padding: 1em 3em;
 }
 
 
@@ -227,7 +236,7 @@ h2{
 
 @media (min-width: 992px) {
     h2{
-        font-size: 2.4em;
+        font-size: 2.2em;
     }
     .left-feature__desc{
         text-align: right;
@@ -257,34 +266,18 @@ h2{
         margin-top: 8em;
     }
 
-    .seperator{
-        margin: auto;
-        width:2px !important;
-        background-color: white;
-        height: 75% !important;
-    }
-
     .about-desc{
-        margin-top: 3em !important;
-    }
-
-    .right-about__col{
-        margin-top: 5em;
-    } 
-    .left-about__col{
-        text-align: right;
+        margin-top: 5em !important;
     }
     
 }
 
 @media (min-width: 1200px) {
-    .about-container{
-    }
 }
 
 @media (min-width: 1400px){
     h2{
-        font-size: 2.8em;
+        font-size: 2.6em;
     }
     .global-container{
         padding: 0;
@@ -299,26 +292,24 @@ h2{
 
 /* ABOUT */
 
+#about{
+    min-height: 78vh;
+}
+
 .about-container{
+
     padding-top:6em;
 }
 
 .about-desc{
-    margin-top: 2em;
+    margin-top: 5em;
 }
 
-.seperator{
-    margin: 2em auto 2em;
-    height:2px;
-    background-color: white;
-    width: 75%;
-}
 .typewriter{
     word-spacing: 1px;
     font-family: 'Ubuntu Mono', serif;
     position:relative;
     width: max-content;
-    font-size:1.4em;
     flex-wrap: nowrap;
 }
 
@@ -333,16 +324,16 @@ h2{
 }
 
 .typewriter::before{
-    background:#030303;
-    animation: typewriting 4s steps(28) 1s forwards;
+    background:rgba( 0, 122, 120);
+    animation: typewriting 4s steps(23) 1s forwards;
 }
 
 .typewriter::after{
-    width: 0.1em;
+    width: 0.05em;
     background-color: whitesmoke;
     animation:
-    typewriting 4s steps(28) 1s forwards,
-    blink 800ms steps(28) infinite; 
+    typewriting 4s steps(23) 1s forwards,
+    blink 800ms steps(23) infinite; 
 
 }
 
@@ -356,6 +347,12 @@ h2{
     }
 }
 
+.contact-us{
+}
+
+.contact-row{
+    margin-top: 2.5em;
+}
 
 .contact-card{
     display: flex;
@@ -363,35 +360,29 @@ h2{
     margin-top: 70px !important;
     align-items: center;
     padding: 2%;
-    margin:auto;
-    width: 25em;
-    height: 15em;
+    width: 24em;
+    height: 12em;
     background: rgba( 0, 122, 120 );
     box-shadow: 0 8px 32px 0 rgba(0, 122, 120, 0.37);
     border: 1px solid rgba( 255, 255, 255, 0.18 );
     -webkit-transform: rotate(5deg);
     transform: rotate(5deg);
+    border-radius: 6px;
 }
 
-.contact-card p{
-    text-decoration: underline;
-    color: #FFDC4A;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 1.5px;
-}
 
 .contact-card a{
     display: inline-block;
     color: #FFDC4A;
-    line-height: 2.5;
-    font-size: 18px;
+    line-height: 1.5;
+    font-size: 22px;
 }
 
 .contact-card a:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #FFC23C;
+    text-decoration: none;
+    border: 1px solid rgba(255,255,255);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    padding: 4px;
 
 }

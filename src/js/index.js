@@ -10,8 +10,6 @@ function masonry () {
 masonry()
 
 function heroScroll () {
-  const width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth
-  if (width >= '1200') {
     const hero = document.getElementById('hero')
     document.addEventListener('scroll', () => {
       if (hero.clientHeight === window.innerHeight & scrollY >= 1) {
@@ -24,11 +22,14 @@ function heroScroll () {
         hero.classList.remove('scrollDown')
       }
     })
-  }
 }
 
-if(window.location.pathname==='/') {
-  heroScroll()
+const width = (window.innerWidth > 0) ? window.innerWidth : document.documentElement.clientWidth
+if (width >= '1200') {
+  if (window.location.pathname === '/') {
+    heroScroll()
+  }
+  magnify('myimage', 3)
 }
 
 function magnify (imgID, zoom) {
