@@ -3,73 +3,87 @@ layout: base.njk
 title: Home
 ---
 
-
+<div class="snap-container">
   <section id="hero">
-    <div class="hero-container">
-      <div class="row align-items-center">
-        <div class="col-xl-6 feature-col captions-col">
+    <div class="global-container">
+      <div class="flex-container">
+        <div class="captions-col">
           <h1>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim nunc sit amet volutpat venenatis. Proin sit amet suscipit dolor, a feugiat purus. Morbi sed lectus justo.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </h1>
+          <p>""</p>
+          <p>-</p>
         </div>
-        <div class="col-xl-6 feature-col image-col">
-
+        <div class="image-col" id="img-transformation">
+          <div id="layers" class="layers">
+            <img src="assets/images/globalPlayer.jpg" alt="Global Players">
+            <img src="assets/images/global player2.jpg" alt="Global Players">
+            <img src="assets/images/global player5.jpg" alt="Global Players">
+          </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="feature">
-    <div class="global-container container-all-features">
-      <div class="container-feature first-feature" >
+  <section class="feature">
+      <div class="global-container container-feature first-feature" >
         <div class="row align-items-center need-reverse">
-          <div class="feature-col col-lg-4 col-xl-5 feature-description left-feature__desc">
+          <div class=" col-lg-4 col-xl-5 feature-description left-feature__desc nopadding">
             <h2>Have a look at the latest political art</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
                 Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
                 </p>
                 <a class="feature-link" href="/gallery">This way to our gallery</a>
           </div>
-          <div class="feature-col col-lg-8 col-xl-7 featured-image__container">
+          <div class=" col-lg-8 col-xl-7 featured-image__container nopadding">
               <div class="image-overlay__left">
               </div>
               <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
             </div> 
           </div>
         </div>
-          <div class="container-feature second__feature">
+  </section>
+  <section class="feature">
+          <div class="global-container container-feature second__feature">
         <div class="row align-items-center">
-          <div class="feature-col col-lg-8 col-xl-7 featured-image__container second-feature-image">
+          <div class="col-lg-8 col-xl-7 featured-image__container second-feature-image nopadding">
                 <div class="image-overlay__right">
               </div>
             <img class="featured-image right-image " src="/assets/images/olympic.jpg" alt="Lorem">
             </div> 
-          <div class="feature-col col-lg-4 col-xl-5 feature-description right-feature__desc">
+          <div class="col-lg-4 col-xl-5 feature-description right-feature__desc nopadding">
             <h2>Our brand new NFT collections</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
                 Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
                 </p>
-                <a class="feature-link link-right" href="/nfts">Our Collection</a>
+                <p style="color: #bbb">Collection coming soon</p>
           </div>
           </div>
         </div>
-          <div class="container-feature third-feature">
+  </section>
+  <section class="feature">
+          <div class="global-container container-feature third-feature">
         <div class="row align-items-center need-reverse">
-          <div class="feature-col col-lg-4 col-xl-5 feature-description left-feature__desc">
+          <div class="col-lg-4 col-xl-5 feature-description left-feature__desc nopadding">
             <h2>Find out more about the artist</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
                 Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
                 </p>
                 <a class="feature-link" href="/about">Have a look</a>
           </div>
-          <div class="feature-col col-lg-8 col-xl-7 featured-image__container">
+          <div class="col-lg-8 col-xl-7 featured-image__container nopadding">
                       <div class="image-overlay__left">
               </div>
               <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
             </div> 
           </div>
         </div>
-      </div>
-      </div>
+  </section>
+  <section>
+    <footer>
+      <div class="social-links"><a class="icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i></a></div>
+      <p> &copy 2022 Rebel Artist. All rights reserved
+    </footer>
+  </section>
       <script>
       </script>
-  </section>
+</div>
