@@ -4,11 +4,11 @@ body{
 }
 
 h1{
-    font-family: "Londrina Solid", 'cursive';
+    font-family: "Londrina Shadow", cursive;
     font-weight: 900;
-    font-size: 2.2em;
-    margin-bottom: 1em;
-    margin-top: 1em;
+    font-size: 1.6em;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
     line-height: 1.5;
     letter-spacing: 1.5px;
 }
@@ -17,9 +17,9 @@ h2,h3,h4,h5,h6{
     font-family: "Raleway", sans-serif;
 }
 
-a, p{
+a, p, li{
     font-family: "Ubuntu", sans-serif;
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.8;
     color: white;
 }
@@ -79,7 +79,7 @@ h2{
         line-height: 1.8;
         color: white;
         letter-spacing: 1px;
-        border-bottom: 1px solid whitesmoke;
+        border-bottom: 2px solid #fafafa;
         padding-bottom:5px;
         text-decoration: none;
         display: inline-block;
@@ -124,7 +124,7 @@ h2{
 }
 .flex-container{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .captions-col{
@@ -140,20 +140,17 @@ h2{
 .image-col{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
-
 
 .layers{
     position: relative;
-    width: 300px;
-    height: 500px;
+    width: 220px;
+    height: 310px;
 }
 
 .layers img{
     position: absolute;
     transition: all ease 1200ms;
-    transition-delay: 200ms;
     transform-style: preserve-3d;
 }
 
@@ -163,18 +160,18 @@ h2{
 
 .layers:hover img:nth-child(3){
     transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
-    translateX(-300px) translateY(0) translateZ(0); 
+    translateX(-80px) translateY(0) translateZ(0); 
     opacity: 0.8;
 }
 .layers:hover img:nth-child(2){
     transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
-    translateX(0px) translateY(0px) translateZ(0);
+    translateX(20px) translateY(0px) translateZ(0);
     opacity: 0.7;
 }
 
 .layers:hover img:nth-child(1){
     transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
-    translateX(300px) translateY(0) translateZ(0);
+    translateX(120px) translateY(0) translateZ(0);
 }
 
 /* .img-magnifier-container {
@@ -230,15 +227,148 @@ h2{
 .art-content{
     margin: auto;
     margin-top: 5em;
-    max-width: 992px;
+    max-width: 768px;
 }
 
+.explore-more{
+    margin-top: 2em;
+    display: inline-block;
+}
+
+.explore-more:hover{
+    color:white;
+    transform: scale(1.05)
+}
+
+
+@media (min-width: 450px){
+    .layers{
+        position: relative;
+        width: 270px;
+        height: 370px;
+    }
+    
+    .layers img:nth-child(2),.layers img:nth-child(3){
+        opacity: 0;
+    }
+    
+    .layers:hover img:nth-child(3){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(-70px) translateY(0) translateZ(0); 
+        opacity: 0.8;
+    }
+    .layers:hover img:nth-child(2){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(30px) translateY(0px) translateZ(0);
+        opacity: 0.7;
+    }
+    
+    .layers:hover img:nth-child(1){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(130px) translateY(0) translateZ(0);
+    }
+
+}
+
+@media (min-width: 525px){
+    .layers{
+        position: relative;
+        width: 300px;
+        height: 420px;
+    }
+    
+    .layers img:nth-child(2),.layers img:nth-child(3){
+        opacity: 0;
+    }
+    
+    .layers:hover img:nth-child(3){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(-80px) translateY(0) translateZ(0); 
+        opacity: 0.8;
+    }
+    .layers:hover img:nth-child(2){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(30px) translateY(0px) translateZ(0);
+        opacity: 0.7;
+    }
+    
+    .layers:hover img:nth-child(1){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(140px) translateY(0) translateZ(0);
+    }
+
+}
+
+
+@media (min-width: 600px){
+    .layers{
+        position: relative;
+        width: 340px;
+        height: 480px;
+    }
+    
+    .layers img:nth-child(2),.layers img:nth-child(3){
+        opacity: 0;
+    }
+    
+    .layers:hover img:nth-child(3){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(-90px) translateY(0) translateZ(0); 
+        opacity: 0.8;
+    }
+    .layers:hover img:nth-child(2){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(40px) translateY(0px) translateZ(0);
+        opacity: 0.7;
+    }
+    
+    .layers:hover img:nth-child(1){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(150px) translateY(0) translateZ(0);
+    }
+
+}
+
+
+
 @media (min-width: 768px){
+    h1{
+        font-size: 2em;
+    }
+    p{
+        font-size: 18px;
+    }
+
     .global-container{
         padding: 0 1.5em;
     }
     .image-container{
         padding: 0.25em;
+    }
+    .layers{
+        position: relative;
+        width: 370px;
+        height: 510px;
+    }
+    
+    .layers img:nth-child(2),.layers img:nth-child(3){
+        opacity: 0;
+    }
+    
+    .layers:hover img:nth-child(3){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(-120px) translateY(0) translateZ(0); 
+        opacity: 0.8;
+    }
+    .layers:hover img:nth-child(2){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(50px) translateY(0px) translateZ(0);
+        opacity: 0.7;
+    }
+    
+    .layers:hover img:nth-child(1){
+        transform: perspective(1200px) rotateX(30deg) rotateY(20deg) rotateZ(-10deg)
+        translateX(180px) translateY(0) translateZ(0);
     }
 }
 
@@ -278,6 +408,9 @@ h2{
     }
     h1{
         font-size: 2.4em;
+    }
+    p{
+        font-size: 19px;
     }
 
     .flex-container{
@@ -440,40 +573,31 @@ h2{
     }
 }
 
-.contact-us{
-}
-
-.contact-row{
-    margin-top: 2.5em;
-}
-
 .contact-card{
     display: flex;
     flex-direction: column;
-    margin-top: 70px !important;
+    justify-content: center;
     align-items: center;
+    margin-top: 70px !important;
     padding: 2%;
     width: 24em;
     height: 12em;
     background: rgba( 0, 122, 120 );
     box-shadow: 0 8px 32px 0 rgba(0, 122, 120, 0.37);
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    -webkit-transform: rotate(5deg);
-    transform: rotate(5deg);
     border-radius: 6px;
 }
 
 
 .contact-card a{
     display: inline-block;
-    color: #FFDC4A;
+    color: #FFC745;
     line-height: 1.5;
     font-size: 22px;
 }
 
 .contact-card a:hover{
     text-decoration: none;
-    border: 1px solid rgba(255,255,255);
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
     padding: 4px;

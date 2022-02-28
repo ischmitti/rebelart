@@ -9,14 +9,6 @@ function masonry () {
 
 masonry()
 
-function transformation() {
-  const transform = document.getElementById('img-transformation')
-  const layers = document.getElementById('layers')
-  layers.style.display = 'inline-block'
-  layers.classList.add('layers-images')
-}
-
-
 // function heroScroll () {
 //     const hero = document.getElementById('hero')
 //     document.addEventListener('scroll', () => {

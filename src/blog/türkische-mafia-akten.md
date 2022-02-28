@@ -1,0 +1,145 @@
+---
+title: Türkische Mafia Akten
+description: TÜRKISCHE MAFIA AKTEN GESCHREDDERT DNS PANNE NEGER ZIGEUNER DANKE KAMERADEN
+date: 2022-02-17T10:42:53.770Z
+image: /assets/blog/türki.jpg
+imageAlt: türkische mafia akten
+dimension: 100cm x 70cm
+tags: post
+layout: art.njk
+---
+Die Ermittlungen in die falsche Richtung als Panne darzustellen ist reine Vertuschung.
+
+Die Entschuldigung klingt wie ein Hohn. Will der Staat damit sagen dass der fall abgeschlossen ist? Will der Staat die Verstrickung des Verfassungschutzes nicht aufklären?
+
+Was sicher ist: Sachsens Ermittler gehen supergründlich gegen Teilnehmer von Anti-Neonazi-Aktionen vor!
+
+Schutz der Staat Nazi-terrorist? Hilft der Verfassungschutze Nazi-terrorist? 
+
+Gegeneinander statt miteinander  Verfassungsschützer halten im Fall NSU Erkenntnisse zurück. BKA lässt Handydaten von Verdächtigem löschen (Andreas Förster FR 13.2.12)
+
+Die mutmaßliche Rechtsterroristin Beate Zschäpe ist unmittelbar nach ihrer Flucht aus Zwickau von einem Handy angerufen worden, das auf Sachsens Innenministerium zugelassen ist.  (Andreas Förster FR 30.5.12)
+Nach einem Bericht der Wochenzeitung Der Freitag hatte ein Beamter des hessischen Landesamtes für Verfassungschutz (LfV) im unmittelbaren zeitlichen Umfeld von drei Mordtaten telefonischen Kontakt mit einem V-Mann aus der Neonaziszene. Bei dem Beamten handelt es sich um den Verfassungsschützer (Andreas Temme.), der im April 2006 am Tatort war, als der Betreiber eines Internet-Cafés in Kassel erschossen wurde......
+
+Am Tag des Kasseler Mordes war T. um 16.11 Uhr von seinem V-Mann angerufen worden. Kurz danach muss er sich zum Internetcafé begeben haben. Während der zehn Minuten, in denen er dort war, geschah der Mord……..
+
+Laut Unterlagen waren zwischen dem Beamten und seinem V-Mann auch am 9. Juni 2005, als der Türke Ismail Yasar in Nürnberg erschossen wurde, und am 16. Juni 2005 Telefonate geplant, am Tag nach der Ermordung des Griechen Theodorus Boulgarides in München.    Zufall?..............(Andreas Förster FR 1.6.12)        
+
+Man muss kein Anhänger von Verschwörungstheorien sein, um hier Verdacht zu schöpfen. Eine Woche, nachdem die rechte Zwickauer Terrorzelle durch den Selbstmord zweier Mitglieder endlich aufgeflogen ist, lässt ein Referatsleiter beim BfV Akten über verdeckte Ermittlungen in ihrem Umfeld vernichten. Und vertuscht die Aktion dann über Monate. Das soll Zufall sein?  (Holger Schmale FR 20.6.12)  
+
+Jeder zehnte Neonazi leistete Spitzeldienste   (Andreas Förster FR 23/24.6.12)
+
+Geheimdienst verschwieg Zahlung an NSU-Vertrauten  (Andreas Förster FR 5.7.12)        
+
+In dem Bericht des BfV findet sich noch eine weitere brisante Notiz. Danach habe ein Referatsleiter im BfV am 10. November (2011), also einen Tag vor der Übernahme der Ermittlungen durch die Bundesanwaltschaft, die Vernichtung der Unterlagen angeordnet. Er habe dabei vor allem auf eine V-Mann-Akte hingewiesen. „Auch die Aktenbestandteile von VM „Tarif“ müssen unbedingt vernichtet werden“, heißt es in der Anordnung. (Andreas Förster FR 14/15.7.12)
+
+Am 10. April 2006 hatte das BKA in seinem Internetportal die Fahndungsseite eingerichtet, mit der nach Zeugen und Hinweise auf die möglichen Täter gesucht werden sollte. Die elektronischen Zugriffe auf diese Seiten wurden damals heimlich überwacht. Die Idee dahinter: Wenn ein bestimmter Computer ungewöhnlich häufig die überwachte Fahndungsseite aufruft, liegt es nahe, dass der PC-Nutzer möglicherweise selbst über Erkenntnisse zu den Taten verfügt. Über die IP-Adresse des Computers können die Ermittler dann den Nutzer identifizieren…………….im Fall der Ceska-Mordserie (der NSU) den BKA-Fahndern seinerzeit ein Computer aufgefallen war, der ungewöhnlich oft auf die Fahndungsseite zugegriffen hatte – zwischen August 2006 und März 2007 wurden insgesamt 450 Klicks von dem Gerät registriert…. Als die Fahnder damals die IP-Adresse des Computers überprüften, erlebten sie eine Überraschung: Das Gerät stand in der Sächsischen Staatskanzlei des Dresdner Regierungschefs Georg Milbradt (CDU). Anfang Juli 2007 übermittelte des BKA daher ein Auskunftsersuchen an Dresden. Doch die Staatskanzlei passte: Alle Nutzerdaten der PCs seien bereits den Regelungen entsprechend gelöscht worden. Eine Identifizierung des verdächtigen Mitarbeiters, teilte man seinerzeit dem BKA mit, sei damit nicht möglich. Tatsächlich aber hätte die Staatskanzlei damals durchaus auf die Spur des PC-Nutzers kommen können. Auffällig oft waren nämlich die Zugriffe auf die BKA-Seite an Wochenenden und nach Dienstschluss erfolgt. Und für diese Termine lagen die Kontrollbücher des privaten Wachunternehmens sowie die Aufzeichnungen des polizeilichen Objektschutzes vor. Aus ihnen geht hervor, in welchen Räumen werktags nach Dienstschluss sowie an Feiertagen und Wochenenden gearbeitet wurde. Warum diese Überprüfungen 2007, nach der Anfrage des BKA, unterblieben, konnte der Sprecher der Staatskanzlei, Christian Hoose, nicht erklären.  (Andreas Förster FR 27.8.12)
+
+Ist es Zufall, dass bei deutschen Sicherheitsbehörden immer wieder Akten zum NSU-Terror verschwinden? Die Zweifel daran wuchsen in den vergangenen Monaten beträchtlich. Mittlerweile kann nicht mehr nur von Zweifeln die Rede sein. Ob beim Verfassungsschutz oder beim Militärischen Abschirmdienst, ob jeweils isoliert oder abgesprochen: Hinter dem Aktenschwund steckt allem Anschein nach Kalkül.  (Markus Decker FR 13.9.12)       
+
+Nein, das ist keine Panne. Das ist eine Manipulation der Öffentlichkeit. Das ist eine Lüge…..Mehr als eine Dekade waren die Sicherheitsbehörden unfähig, den Tätern auf die Spur zu kommen. Nun verwenden sie alle Energie darauf Spuren zu verwischen. Wie will man das den Hinterbliebenen noch erklären?  (Markus Decker FR 15/16.9.12)        
+
+Högl legt Berlins Innensenator Henkel den Rücktritt nahe  Die SPD-Obfrau in NSU-Untersuchungsausschuss fordert die Herausgabe der Akten – in Form eines Ultimatums (Markus Decker FR 18.9.12)        
+
+Beim Berliner Verfassungsschutz sind Akten geschreddert worden, die eventuell für den NSU-Untersuchungsausschuss des Bundestages von Interesse gewesen wären. Die Verfassungsschutz sprach von einem Versehen. (FR 7.11.12)        
+
+Die Affäre um die Vernichtung von Akten des Berliner Verfassungsschutzes über Rechtsextremisten weitet sich aus. Nicht nur in diesem Jahr, sondern bereits 2010 sind Aktenbestände ohne ordnungsgemäßes Verfahren vernichtet worden. Das räumte Verfassungsschutzchefin Claudia Schmid am Dienstag ein. (FR 14.11.12)        
+
+Vor dem Erfurter NSU-Untersuchungsausschuss hat der Polizeibeamte Mario Melzer erneut schwere Vorwürfe gegen die Behörden des Freistaats erhoben. In den 90er Jahren habe es ausreichend Erkenntnisse und Aussagen von Informanten gegeben, um erfolgreich nach Paragraf 129 – Bildung einer terroristischen Vereinigung – gegen Thüringer Neonazis vorzugehen, sagte er am Montagabend. Zu den Verdächtigen hätten damals auch die späteren mutmaßlichen NSU-Mitglieder Uwe Mundlos, Uwe Böhnhardt und Beate Zschäpe gehört. Obwohl aus der Polizei heraus auf ein entsprechendes Verfahren gedrängt wurde, sei dies aber gezielt abgeblockt worden, so der Beamte.  (Andreas Förster FR 5.12.12)
+
+Oder – noch einmal – der Mord an Halit Yozgat in Kassel: Hier fand man beim Trio zwar einen Stadtplan mit handschriftlichen Zeichen und Notizen. Das Internetcafé war allerdings nicht markiert, dafür aber lagen alle anderen markierten Objekte bis auf eines an der täglichen Fahrtroute des Verfassungsschützers Temme, der beim Yozgat-Mord vor Ort war. Außerdem existiert eine von Unbekannten handschriftlich gefertigte Skizze des Internetcafés, auf deren Rückseite unter anderem auch die Frequenz des von Innenministerium und Verfassungsschutz genutzten Funkkanals stand. (Andreas Förster Der Freitag Ausgabe 10/2015)       
+
+In der ausgebrannten Wohnung (Wohnmobil des NSU-Trios)  fand man auch einen Zettel mit einer Skizze des Internet-Cafés von Yozgat, auf der Rückseite standen Straße und Hausnummer des Cafés sowie sieben verschlüsselte Zahlenreihen. Dabei handelt es sich um die Funkkanäle des Polizeipräsidiums Nordhessen und der Leitstellen verschiedener Rettungsdienste in Kassel und Umgebung. Insbesondere eine Zahlenreihe wirft Fragen auf. Es ist der nicht öffentliche Kanal des hessischen Innenministeriums. Wer kundschaftete den Tatort aus, der gleichzeitig den Funkkanal des Innenministeriums kannte?
+
+Die Fülle der Indizien im Kasseler Mordfall, die eine Verwicklung des Verfassungsschutzes nahelegen, spricht eine klare Sprache. Dies ist wohl der Grund, weshalb sich die Bundesanwaltschaft im NSU-Prozess so ungewöhnlich vehement gegen die Beweisanträge der Nebenkläger-Anwälte ausgesprochen hat.
+
+
+„Würden die Beweisanträge stimmen, wäre dies eine Staatsaffäre“, kommentiert die Süddeutsche Zeitung. Dabei deutet alles genau darauf hin. Es ist bekannt, dass mindestens 25 V-Leute im direkten Umfeld des NSU aktiv waren und dass der Thüringer Heimatschutz genauso wie der baden-württembergische Ku-Klux-Klan-Ableger vom Verfassungsschutz aufgebaut und finanziert wurden. (Dietmar Henning wsws.org 15.3.15)
+
+Der ehemalige Verfassungsschützer (Andreas Temme), der jetzt im Kasseler Regierungspräsidium arbeiten soll, genießt einen zweifelhaften Ruf. In seinem Heimatdorf war er als „kleiner Adolf“ bekannt, weil er sich sehr für die Nazi-Vergangenheit interessiert haben soll.  (Per Hinrichs Welt N24 22.10.13)  
+
+NSU-Ausschuss:  Temme räumt Kontakte zu „Hells Angels“ ein   (Hanning Voigts, Pitt von Bebenburg FR-online  06.06.2016 )
+
+In Reinhardshagen nördlich von Kassel liefen jedoch einige der Stränge zusammen. Dort trafen sich Hells Angels- und Blood and Honour-Mitglieder, dort nahm Temme an Schießübungen der Reservistenkameradschaft Reinhardshagen teil, und dort in dem Ort soll auch das NSU-Mitglied Uwe Mundlos gewesen sein. Zeuge dafür ist der Polizei-Informant Volker B., der früher ebenfalls im Rockermilieu und der rechtsextremen Szene im Großraum Kassel verkehrte. Nach dem Auffliegen des NSU-Trios gab B. gegenüber dem Bundeskriminalamt (BKA) zu Protokoll, Mundlos mehrfach in Reinhardshagen in einer Gaststätte ("Scharfe Ecke") angetroffen zu haben. Mundlos soll dort Kontakte zu Mitgliedern der Hells Angels sowie von Blood and Honour gehabt haben.
+
+Die Polizei-Quelle Volker B. will aber auch gewusst haben, dass Hells Angels-Rocker Kontakte zu Ausbildern und Schülern der benachbarten Landespolizeiakademie in Hannoversch Münden unterhielten. Rechercheur Narin fand heraus, dass das BKA den Hinweisen von B. nicht nachging und auf weitere Ermittlungen verzichtete. (TELEPOLIS)
+
+„Ich stelle hier nur Fragen, ich gebe Ihnen keine Antworten“, sagt Dorothea Marx. Die SPD-Abgeordnete aus Thüringen, Vorsitzende des ersten und seit kurzem auch des zweiten Untersuchungsausschusses zum „Nationalsozialistischen Untergrund“ (NSU) im Thüringer Landtag, soll ihren hessischen Kollegen Anregungen für die weitere Arbeit geben. Und in der Tat hat Marx vor allem Fragen mitgebracht. Gerade zu Kontakten zwischen hessischen und thüringischen Neonazis habe sie als „Beifang“ viele Hinweise in den Akten gefunden, denen sie nie habe nachgehen können, sagt Marx.
+
+So sei sie in den Dokumenten immer wieder auf Benjamin G. gestoßen, den V-Mann aus der Kasseler Neonazi-Szene, der vom hessischen Verfassungsschützer Andreas Temme geführt wurde. G. habe seit Anfang der 2000er Jahre rege Kontakte in die Thüringer rechte Szene unterhalten, in der sich der NSU radikalisiert habe. Kurz nach Auffliegen des NSU 2011 habe G. sogar auf einer Prioritätenliste des Bundeskriminalamts zur Aufhellung des NSU-Umfelds gestanden, so Marx. „Er war schon irgendwie besonders.“
+
+
+Auch zur ungeklärten Rolle von Temme hat Marx Fragen im Gepäck: So habe Temme Kontakte ins rechte Rocker-Milieu gehabt, noch heute sei er auf Facebook mit Rockern befreundet, die mit Kasseler Neonazis aus dem Umfeld der Gruppe „Sturm 19“ verkehrte.
+
+
+Dazu kämen die Telefonate, die Temme und Gärtner führten – auch an dem Tag im April 2006, an dem Halit Yozgat in seinem Kasseler Internetcafé erschossen wurde. (Hanning Voigts FR 28.4.15)
+
+ 
+
+NSU-Affäre belastet Bouffier:  Im Skandal um den…(NSU) werden neue Vorwürfe gegen den Verfassungsschutz laut. Abgehörte Telefonate sollen belegen, dass der hessische Verfassungsschützer Andreas Temme bereits vor dem NSU-Mord in Kassel von der geplanten Tat wusste und auch Vorgesetzte davon Kenntnis hatten. (Pitt von Bebenburg und Hanning Voigts FR 23.2.15)
+
+Die Frage, warum (Benjamin) G. ausgerechnet im November 2011 einen Anwalt erhielt, beantwortete Beuth im Ausschuss nicht…… Nach Auffassung der Linken Schaus ist G. „eine zentrale Figur in der Aufklärung des Mordes an Halit Yozgat“. Ansprechpartner von G. war Andreas Temme – der Verfassungsschützer, der während des NSU-Mordes an Yozgat in Kassel im April 2006 am Tatort war. (Pitt von Bebenburg FR 11.3.15)  
+
+300 000 Euro für einen Spitzel:  Bericht über V-Mann“Corelli“ wirft neue Fragen über NSU und Verfassungsschutz auf (Andreas Förster FR 22.5.15)
+
+Wohnmobil (ausgebrannt) des NSU war unbewacht  Firmeninhaber sagt aus (Andreas Förster FR 28.8.15)
+
+Die Landesregierung habe dem NSU-Untersuchungsausschuss „geschwärzte Akten vorgelegt ohne hinreichende Begründung“, monierte die SPD Abgeordnete Nancy Faeser. In vielen Fällen werde nur generell „Staatswohl“ als Grund genannt, ohne dies auszuführen. (Pitt von Bebenburg FR 27.11.15)        
+
+Der Journalist Stefan Dietl zeigt gut auf, wie nun der NSU herhalten muss, um die staatliche Apparate zu   perfektionieren: Auch im Freistaat erwies sich bereits kurz nach der Entdeckung des NSU das Vorgehen des bayerischen Verfassungsschutzes als fragwürdig. Fünf Morde ereigneten sich in dem Bundesland. In Nürnberg wurden Enver Şimşek, Abdurrahim Özüdoğru und İsmail Yaşar ermordet, in München Theodoros Boulgarides und Habil Kılıç. Hinzu kommt ein Sprengstoffanschlag in einer Nürnberger Gaststätte, der ebenfalls dem NSU zugerechnet wird.
+
+
+Dabei ist immer noch ungeklärt, wie eng der Kontakt von V-Leuten des bayerischen Verfassungsschutzes zu dem rechtsextremen Terrornetzwerk war. Klar ist hingegen, dass Geld des Verfassungsschutzes maßgeblich zum Aufbau der neonazistischen Internet-Präsenz Thule-Netz beigetragen hat. Mehr als 150 000 Euro für den technischen Betrieb des Netzes flossen vom Landesamt an einen V-Mann.
+
+
+Dieser hatte auch enge Verbindungen zum Thüringer Heimatschutz, in dem sich Mundlos, Bönhardt und Zschäpe betätigten. Trotz solcher dubioser Machenschaften erhält der bayerische Verfassungsschutz bundesweit einmalige Befugnisse. (Telepolis 30.7.16)
+
+„Wir wurden getäuscht“  NSU-Ausschussobfrau Petra Pau über den Mord in Kassel und das Vertuschen der hessischen Regierung (Martin Steinhagen FR 15.12.16)  
+
+Im NSU-Ausschuss der Seltsamkeiten  Die parlamentarischen Aufklärer stoßen auf immer mehr Ungereimtheiten in der Mordserie gegen Migranten (Markus Decker FR 16.12.16)
+
+Im Umfeld des NSU gab es zahllose V-Leute, die teilweise viel Geld kassierten. Dennoch konnte das Kern-Trio aus Beate Zschäpe, Uwe Böhnhardt und Uwe Mundlos, das sich jahrelang in sächsischen Zwickau versteckt hielt, zehn Mord begehen. (FR 17.5.17)  
+
+Steuergeld für Nazi-Szene: Daneben gibt es eine Reihe weiterer V-Leute aus dem Trio-Umfeld, die über Jahre hinweg, gefördert von Geheimdienst, die rechte Szene vernetzten und schlagkräftiger machten und dadurch große Wertschätzung und Einfluss unter den Kameraden genossen. Timo Brandt etwa, der mit Verfassungsschutzgeldern den „Thüringer Heimatschutz“ (THS) aus dem Boden stampfte, in dem sich nicht nur das Trio radikalisierte, sondern eine große Zahl weiterer Neonazis des Freistaats. Oder Kai Dalek, der erst Michael Kühnen bis zu dessen Tod 1991 bei der „Osterweiterung“ seines militanten Nazinetzes zur Seite stand und anschließend Tino Brandt beim THS-Aufbau half; daneben baute er mit technischer Unterstützung des Verfassungsschutzs in den 1990er Jahren das Thule-Netz auf, ein Mailbox-System für die interne Kommunikation von Nazi-Gruppen. Zu nennen ist auch Thomas Richter alias „Corelli“, fast 20 Jahre lang Netzwerker im BfV-Auftrag, der zwischen Sachsen-Anhalt, Niedersachsen, Baden-Württemberg und Thüringen pendelte und Zugang zu den wichtigsten Führungspersonen der militanten Naziszene….. (Andreas Förster FR 30.5.17)       
+
+In den Akten aus Baden-Württemberg war nach Presseberichten bezüglich des Falls der ermordeten Polizistin Michele Kiesewetter an verschiedenen Stellen die Rede von verdächtigten "Negern" und "Zigeunern", die "typischerweise lügen". (t-online nachtrichten 04.02.14)        
+Und trotz all dieser Bemühungen werden die Hintergründe der rechtsextremen Mordserie immer rätselhafter. Vor allem der Mord an der Polizistin Michèle Kiesewetter in Heilbronn, der nie so richtig in die Mordserie der Ausländerhasser gepasst hat, erscheint zunehmend seltsamer. (tz.de)       
+Auch das angebliche Motiv dieses Mordanschlages ist mehr als dumm und haarsträubend: Die uns bekannten NSU-Mitglieder waren im Besitz von zahlreichen Kurz- und Langwaffen. Wenn man der offiziellen Version Glauben schenken darf, kamen auf die beiden Mitglieder jeweils mehr als fünf Waffen. Wenn es dem NSU an irgendetwas gefehlt hat, dann sicherlich nicht an Waffen, in deren Besitz sie kamen, ohne Polizeibeamte umzubringen.
+
+Und wenn man der Version dennoch eine Sekunde glauben will: Müssen Neonazis Hunderte von Kilometer fahren, um Polizeibeamte in Heilbronn zu entwaffnen? Gibt es keine Polizisten in Thüringen? (Klaus Schmidt 9.5.17 Focus online)
+
+Auch andere Zeugen im Fall Kiesewetter wurden bedroht: Eine Polizistin, die mit Kiesewetter befreundet war, war vor ihrer Aussage vor dem Thüringer Untersuchungsausschuss von zwei Männern zu Hause aufgesucht worden, die ihr geraten hatten, sich an „bestimmte Dinge“ im Zusammenhang mit dem Kiesewetter-Mord besser nicht zu erinnern. (tz.de)     
+Der Verlobte der toten Zeugin Melisa M. soll Suizid begangen haben - Gibt es einen Zusammenhang mit dem Fall Florian H. und dem Kiesewetter-Mord?
+
+Im NSU-Komplex gibt es den nächsten Todesfall. Mit einer Woche Verspätung erfährt man vom Tod des 31jährigen Sascha W. aus Kraichtal in Baden-Württemberg. W. war der Verlobte von Melisa M., die im März 2015 vom NSU-Untersuchungsausschuss in Stuttgart befragt worden war und vier Wochen danach an einer Lungenembolie verstarb, 20 Jahre alt.
+
+
+Melisa M. wiederum war einmal Freundin von Florian Heilig, einem Neonazi-Aussteiger, der am 16. September 2013 in seinem Auto auf dem Cannstatter Wasen in Stuttgart verbrannte. Am selben Tag sollte er vom Landeskriminalamt zum Thema NSU vernommen werden. Heilig hatte in der Vergangenheit gesagt, er wisse, wer die Polizeibeamtin Michèle Kiesewetter 2007 ermordet hatte. Das sollen aber nicht Uwe Böhnhardt und Uwe Mundlos gewesen sein.
+
+
+Sascha W. ist der dritte in einer Kette von Todesfällen, die mit dem NSU-Komplex zusammenhängen. (Thomas Moser Telepolis 15.2.16)
+
+Eine 20-jährige Zeugin (Melisa M.) im Mordfall Kiesewetter ist knapp vier Wochen nach ihrer Aussage im Stuttgarter NSU-Untersuchungsausschuss ohne Vorerkrankung plötzlich verstorben. Das Brisante dabei: Die Frau aus Kraichtal (Kreis Karlsruhe), eine Ex-Freundin des ebenfalls verstorbenen Neonazi-Aussteigers Florian H. (siehe unten), hatte erklärt, sie fühle sich bedroht! (tz.de)        
+Denn: Bereits im Mai 2011 hatte Florian H. vor Arbeitskollegen gesagt, dass Rechtsextreme hinter der Bluttat steckten - Monate, bevor die NSU-Mordserie ans Tageslicht kam. Er  hatte also definitiv Insiderwissen. (Klaus Schmidt 9.5.17 Focus online)        
+Neben den Todesfällen Sascha W., Melisa M. und Florian H. gibt es weitere Tote im Zusammenhang mit dem NSU-Komplex: Thomas Richter, V-Mann Corelli, der am 7. April 2014 tot aufgefunden wurde. Gestorben angeblich an einer nicht erkannten Diabetes. Richter war über 18 Jahre lang V-Mann des Bundesamtes für Verfassungsschutz in der rechten Szene. Sein Name steht auf der Adressliste von Uwe Mundlos. Zum Zeitpunkt seines Todes befand sich Richter, wie Florian H., im Zeugenschutzprogramm des BKA. Sein Todeszeitpunkt konnte nicht genau bestimmt werden.  (Telepolis 15.2.16 Thomas Moser)
+
+Die Suche nach der unbekannten Frau, von der die DNA stammte und die als “Phantom” in die Kriminalgeschichte eingegangen ist, entwickelte sich zu einer Politposse. Denn die Wattestäbchen, mit der die DNA-Spuren genommen worden waren, sollen von einer Mitarbeiterin der Verpackungsfirma der Wattestäbchen verunreinigt worden war.
+
+Die Geschichte mit dem “Phantom” war demnach Unsinn.
+
+Oder gibt es in diesem Fall auch Desinformation?................... 
+
+Es gab wohl familiäre Kontakte von Kiesewetter und weiteren Polizisten ihres Umfeldes zu Neonazis . Zudem waren Polizisten Mitglied des rassistsichen  Ku-Klux-Klan und auch dessen Chef war Spitzel des deutschen Verfassungsschutzes. (Klaus Schmidt 9.5.17 Focus online)
+
+Nach der Lektüre des Artikels (Mittendrin statt nur dabei) ist bei mir der Eindruck entstanden, der NSU und andere Neonazigruppen seien Untergruppierung einer anscheinend kriminellen Vereinigung namens Verfassungsschutz zur Entwicklung, Unterstützung und Aufrechterhaltung rechtsextremer Umsturzbestrebungen in Deutschland. Ich bin auf der verzweifelten Suche nach Gegenargument (FR 6.6.17, Leseforum)        
+So behauptet u a der Vater von Mundlos (Professor Mundlos), dass der Verfassungsschutz die NSU-Terror-Zelle geschaffen und gesteuert habe.  Jetzt hatte kürzlich ein LKA Beamter zugegeben, dass der  LKA Chef in Thüringen angeordnet hatte, dass man den NSU-Nazi-Terroristen Böhnhardt schon 2003 nur zum Schein suchen sollte, aber nichts gegen den Nazi-Terroristen unternehmen solle. (Klaus Schmidt 9.5.17 Focus online)  
+
+Die Frage ist: Ob es nur der Verfassungsschutz ist?
+
+Auf Geheiß des Bundesinnenministeriums vernichtete das Bundesamt für Verfassungsschutz im November 2011 Abhörprotokolle, die den Nationalsozialistischen Untergrund (NSU) betrafen.  (Markus Decker FR 20.7.12)  
+
+Bouffier und seine Wahrheit:  Hessens Ministerpräsident hat zur NSU-Mordserie falsche Angaben gemacht   (Pitt von Bebenburg FR 1.10.12)
+
+120 Jahre - für diese Dauer hat das Landesamt für Verfassungsschutz (LfV) von Hessen einen internen Bericht gesperrt, in dem es auch um den NSU-Mord von Kassel und die mögliche Verwicklung seines Mitarbeiters Andreas Temme gehen dürfte. (Thomas Moser, 16.7.17 TELEPOLIS)
+
+
