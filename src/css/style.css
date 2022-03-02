@@ -216,7 +216,6 @@ button:hover, button:focus {
     z-index: 1;
     top: 55%;
 }
-
 .hero-images{
     position: relative;
     display: flex;
