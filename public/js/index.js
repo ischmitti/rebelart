@@ -52,7 +52,5 @@ function animateArt() {
   })
 }
 
-animateArt()
 masonry()
-window.addEventListener('load', () => {
-})
+animateArt()

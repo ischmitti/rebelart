@@ -3,12 +3,11 @@ body{
     color: white;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,a,p,li{
     font-family: "Raleway", sans-serif;
 }
 
 a, p, li{
-    font-family: "Raleway", sans-serif;
     font-size: 17px;
     line-height: 1.8;
     color: white;
@@ -34,9 +33,6 @@ img{
 .col{
     padding: 0;
 }
-.navbar{
-}
-
 .navbar a{
     padding-top: 0.5em;
     display: inline-block;
@@ -140,13 +136,9 @@ h2{
     overflow: hidden;
     background-color: #f0f0f0;
 }
-
 .top-container a,p{
-    color: #030303;
     font-size: 14px;
 }
-
-
 .top-container{
     z-index: 100;
     display: flex;
@@ -156,14 +148,12 @@ h2{
     height: 55vh;
     z-index: 0;
 }
-
 .h1-container{
     margin-top: 1em;
     display: flex;
     justify-content: center;
     position: relative;
 }
-
 h1{
     width: 300px;
     color: #030303;
@@ -182,13 +172,11 @@ h1{
     flex-direction: row;
     justify-content: flex-end;
 }
-
 .description-items{
     width: 225px;
     color: #030303;
     margin-left:0.25em;
 }
-
 .button-container{
     position: relative;
 }
@@ -200,15 +188,18 @@ button:hover, button:focus {
     background: transparent;
     text-decoration: none;
     border: none;
+    bottom: -50px;
+    left: 20px;
+    transform: rotate(-30deg);
 }
 .hero-button img{
-    border: 5px solid #ff00ff;
-    border-radius: 5px;
+    border: 5px solid salmon;
     width: 87.5px;
     height: 125px;
 }
 
 .curved-p{
+    color: #030303;
     font-weight: 700;
     margin: 0;
     letter-spacing: 1px;
@@ -394,7 +385,7 @@ button:hover, button:focus {
 
 .typewriter::after{
     width: 0.05em;
-    background-color: whitesmoke;
+    background-color: #FFC745;
     animation:
     typewriting 4s steps(23) 1s forwards,
     blink 800ms steps(23) infinite; 
@@ -416,7 +407,7 @@ button:hover, button:focus {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 35px;
     padding: 2%;
     width: 22em;
     height: 12em;
@@ -585,8 +576,6 @@ button:hover, button:focus {
         transform: rotate(25deg);
     }
     .hero-button img{
-        border: 5px solid salmon;
-        border-radius: 5px;
         width: 140px;
         height: 210px;
     }
@@ -843,20 +832,24 @@ button:hover, button:focus {
     }
     .animate-first{
         transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-        translateX(350px) translateY(-60px) translateZ(0);
+        translateX(350px) translateY(-40px) translateZ(0);
     }
     .animate-second{
         transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-        translateX(100px) translateY(-70px) translateZ(0);
+        translateX(100px) translateY(-50px) translateZ(0);
         opacity: 0.7 !important;
     }
     .animate-third{
         transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-        translateX(-150px) translateY(-80px) translateZ(0); 
+        translateX(-150px) translateY(-60px) translateZ(0); 
         opacity: 0.8 !important;
     }
-    
-
+    .about-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
     .global-container{
         padding: 0;
     }
