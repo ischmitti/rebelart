@@ -1,17 +1,13 @@
 
-function masonry () {
   window.addEventListener('load', function () {
     const script = document.createElement('script')
     script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js'
     const head = document.getElementsByTagName('head')[0]
     head.appendChild(script)
   })
-}
-
 
 function navbarCollapse() {
   const navbar = document.getElementById('navbar')
-  const navbarNav = document.getElementById('navbar-nav')
   const toggleBtn = document.getElementById('toggle-btn')
   if (toggleBtn.classList.contains('collapsed')) {
     setTimeout(() => {
@@ -24,33 +20,26 @@ function navbarCollapse() {
   }
 }
 
-
-function animateArt() {
-  const first = document.getElementById('first-layer')
-  const second = document.getElementById('second-layer')
-  const third = document.getElementById('third-layer')
-  const firstHeroImage = document.getElementById('first-hero-image')
-  const thirdHeroImage = document.getElementById('third-hero-image')
-  document.getElementById('hero-button').addEventListener('click', () => {
-    if (first.classList.contains('animate-first')) {
-      first.classList.remove('animate-first')
-      second.classList.remove('animate-second')
-      third.classList.remove('animate-third')
-      firstHeroImage.classList.remove('hide')
-      thirdHeroImage.classList.remove('hide')
-      firstHeroImage.classList.add('visible')
-      thirdHeroImage.classList.add('visible')
-    } else {
-      firstHeroImage.classList.remove('visible')
-      thirdHeroImage.classList.remove('visible')
-      firstHeroImage.classList.add('hide')
-      thirdHeroImage.classList.add('hide')
-      first.classList.add('animate-first')
-      second.classList.add('animate-second')
-      third.classList.add('animate-third')
-    }
-  })
+if (window.location.pathname === '/') {
+  const first = document.getElementById('animate-first')
+  const second = document.getElementById('animate-second')
+  const third = document.getElementById('animate-third')
+  function deconstruct () {
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setTimeout(() => {
+            first.classList.add('animate-first')
+            second.classList.add('animate-second')
+            third.classList.add('animate-third')
+          }, 300)
+        }
+        first.classList.remove('animate-first')
+        second.classList.remove('animate-second')
+        third.classList.remove('animate-third')
+      })
+    })
+    observer.observe(document.querySelector('.layers'))
+  }
+  deconstruct()
 }
-
-masonry()
-animateArt()

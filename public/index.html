@@ -7,13 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="/mg/magnifier.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&family=Ubuntu+Mono&family=Londrina+Shadow&display=swap" rel="stylesheet">  <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-replace-svg="nest"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <title>Home</title>
 </head>
@@ -36,59 +32,61 @@
   </header>
   <main>
             
-<div class="snap-container">
-  <section id="hero">
-    <div class="hero-container">
-      <div class="top-container">
-        <div class="h1-container">
-          <h1>
-          <svg viewBox="0 0 500 175">
-            <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+  <div id="hero-desktop">
+            <div class="introduction-card-desc position">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique.  Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
+        </p>
+        <div class="social-links"><a class="icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/fontawesome/instagram-brands.svg" alt="instagram icon"></a></div>
+        <p class="copyrights"> &copy 2022 Rebel Art. All rights reserved
+        </p>
+      </div>
+      <a class="extra-link position" href="">
+        <img class="hero-img" src="assets/images/duBist.jpg" alt="">
+      </a>
+      <a class="about-link position" href="">
+        <img class="hero-img" src="assets/images/LookHere (TS).jpg" alt="">
+      </a>
+      <a class="gallery-link position" href="">
+        <img class="hero-img" src="assets/images/türki.jpg" alt="">
+      </a>
+      <div class="introduction-card position">
+        <h1>Welcome to Rebel Art. The World's Finest Political Art</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique.  Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
+        </p>
+      </div>
+        <div class="see_how-layers">
+          <img  class="third-layer" src="assets/images/globalPlayer.jpg" alt="Global Players">
+          <img  class="second-layer" src="assets/images/global player2.jpg" alt="Global Players">
+          <img  class="first-layer" src="assets/images/global player5.jpg" alt="Global Players">
+          <p class="layers-desc">See how it works</p>
+      </div>
+  </div>
+
+ <div id="mobile-version">
+  <section id="hero-mobile">
+    <div class="overlay">
+      <h2>Welcome to Rebel Art. The World's Finest Political Art</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique.  Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
+        
+      </p>
+    </div>
+  </section>
+  <section class="feature layers">
+    <div class="curve-container">
+      <h2>
+        <svg viewBox="0 0 500 175">
+          <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
             <text width="500">
               <textPath xlink:href="#curve">
-                Finest Political Art
+                See how it works
               </textPath>
             </text>
           </svg>
-        </h1>
-        </div>
-        <div class="description-container">
-          <p class="description-items">Curious about the unequal politics around the World? 
-              Rebel’s Art is topic specific.</p>
-              <div class="description-container2">
-          <p class="description-items">Clear Statement in the Background and Art Work to visualize these. See how its done
-          </p>
-              </div>
-          <div class="button-container">
-          <button class="hero-button" id="hero-button">
-            <p class="curved-p">
-              Click Me
-            </p>
-            <img src="assets/images/globalPlayer.jpg" alt="global Player">
-          </button>
-          </div>
-        </div>
+        </h2>
       </div>
-      <div class="bottom-container">
-        <div class="hero-images">
-          <div class="first hero-image visible" id="first-hero-image">
-            <img src="assets/images/duBist.jpg" alt="Du bist">
-          </div>
-              <div class="second hero-image">
-                  <div class="image-col" id="img-transformation">
-                    <div id="layers" class="layers">
-                      <img id="first-layer"src="assets/images/globalPlayer.jpg" alt="Global Players">
-                      <img id="second-layer"src="assets/images/global player2.jpg" alt="Global Players">
-                      <img id="third-layer"src="assets/images/global player5.jpg" alt="Global Players">
-                    </div>
-                  </div>
-                </div>
-              <div class="third hero-image visible" id="third-hero-image">
-            <img src="assets/images/LookHere (TS).jpg" alt="LookHere">
-          </div>
-        </div>
-      </div>
-    </div>
+    <img id="animate-first" class="layers-transition" src="assets/images/globalPlayer.jpg" alt="Global Players">
+    <img id="animate-second" class="layers-transition" src="assets/images/global player2.jpg" alt="Global Players">
+    <img id="animate-third" class="layers-transition" src="assets/images/global player5.jpg" alt="Global Players">
   </section>
   <section class="feature">
       <div class="global-container container-feature first-feature" >
@@ -110,7 +108,7 @@
   </section>
   <section class="feature">
           <div class="global-container container-feature second__feature">
-        <div class="row align-items-center">
+        <div class="row align-items-center center">
           <div class="col-lg-8 col-xl-7 featured-image__container second-feature-image nopadding">
                 <div class="image-overlay__right">
               </div>
@@ -142,29 +140,100 @@
               <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
             </div> 
           </div>
-          <div class="index-footer">
-            <div class="social-links"><a class="icon" style="color:rgba( 0, 122, 120 ); border: none" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-2x"></i></a></div>
-            <p style="color:rgba( 0, 122, 120 )"> &copy 2022 Rebel Artist. All rights reserved</p>
-          </div>
-        </div>
   </section>
-      <script>
-      </script>
-</div>
 
+   </div> 
   </main>
-
     <script src="/js/index.js"></script>  
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
     <script type="text/javascript">
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
+        window.addEventListener('load', function(){
+        const cc = initCookieConsent();
+        document.body.classList.toggle('c_darkmode')
+        // basic configuration
+        cc.run({
+            current_lang : 'en',
+            theme_css : 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css',
+            onAccept : function(){
+            },
+            onChange: function(){
+                // preferences changed, do something
+            },
+            delay: 500,
+            coookie_expiration: 182,
+            cookie_path: "/",
+            page_scripts: true,
+            force_consent: true,
+            languages : {
+                en : {
+                    consent_modal : {
+                        title :  "I use cookies",
+                        description :  'Your cookie consent message here',
+                        primary_btn: {
+                            text: 'Accept',
+                            role: 'accept_all'  //'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text : 'Settings',
+                            role : 'settings'   //'settings' or 'accept_necessary'
+                        }
+                    },
+                    settings_modal : {
+                        title : 'Cookie settings',
+                        save_settings_btn : "Save settings",
+                        accept_all_btn : "Accept all",
+                        reject_all_btn : "Reject all",
+                        close_btn_label: "Close",
+                        layout: 'box',                 // box/bar
+                  // position: 'left',           // left/right
+                        transition: 'slide',    
+                        blocks : [
+                            {
+                                title : "Cookie usage",
+                                description: 'Your cookie usage disclaimer'
+                            },{
+                                title : "Strictly necessary cookies",
+                                description: 'Category description ... ',
+                                toggle : {
+                                    value : 'necessary',
+                                    enabled : true,
+                                    readonly: true
+                                }
+                            },{
+                                title : "Analytics cookies",
+                                description: 'Analytics description ... ',
+                                toggle : {
+                                    value : 'analytics',
+                                    enabled : false,
+                                    readonly: false
+                                }
+                            },
+                            {
+                                title : "Marketing cookies",
+                                description: 'Marketing description ... ',
+                                toggle : {
+                                    value : 'marketing',
+                                    enabled : false,
+                                    readonly: false
+                                }
+                            },
+                        ]
+                    }
+                }
+            }
         });
-      }
+    });
+            if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+          if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+      });
+    }
+  });
+}
+  </script>
+  <script type="text/plain" data-cookiecategory="analytics">
   </script>
   </body>
 </html>
