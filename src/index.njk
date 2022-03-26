@@ -3,114 +3,94 @@ layout: base.njk
 title: Home
 ---
 
-  <div id="hero-desktop">
-            <div class="introduction-card-desc position">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique.  Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
-        </p>
-        <div class="social-links"><a class="icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/fontawesome/instagram-brands.svg" alt="instagram icon"></a></div>
-        <p class="copyrights"> &copy 2022 Rebel Art. All rights reserved
-        </p>
+  <section id="hero">
+    <div class="mobile-toggle">
+    <div class="captions">
+      <h1>Art to enjoy. Theories to think about.</h1>
+    </div>
+    <div id="mySwiper" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide welcome">
+          <div class="introduction-card position">
+            <h2>Welcome to Rebel Art. Political Art about the World</h2>
+            </p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <a class="gallery-link position" href="">
+            <img class="hero-img" src="assets/images/türki.jpg" alt="">
+            <div class="overlay-image">
+              <p>To Our Gallery</p>
+            </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <a class="about-link position" href="">
+          <img class="hero-img" src="assets/images/LookHere (TS).jpg" alt="about">
+          <div class="overlay-image">
+            <p>About this website</p>
+          </div>
+          </a>
+        </div>
+        <div class="swiper-slide">
+          <div class="nfts-link position">
+          <img class="hero-img" src="assets/images/duBist.jpg" alt="gallery">
+          <div class="overlay-image">
+            <p>Nfts coming soon</p>
+          </div> 
+          </div>
+        </div>
+        <div class="swiper-slide info">
+        <div class="info-desc position">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. Morbi vulputate sapien quis erat sagittis tristique.
+          </p>
+        </div>
+        </div>
+        <div class="swiper-slide copyright">
+        <div class="copyrights-desc position">
+            <footer>
+            {%include 'footer.njk' %}
+            </footer>
+        </div>
+        </div>
       </div>
-      <a class="extra-link position" href="">
-        <img class="hero-img" src="assets/images/duBist.jpg" alt="">
-      </a>
-      <a class="about-link position" href="">
-        <img class="hero-img" src="assets/images/LookHere (TS).jpg" alt="">
-      </a>
-      <a class="gallery-link position" href="">
-        <img class="hero-img" src="assets/images/türki.jpg" alt="">
-      </a>
-      <div class="introduction-card position">
-        <h1>Welcome to Rebel Art. The World's Finest Political Art</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique.  Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
-        </p>
+    </div>
+    <div>
+      <p class="mobile-visible">Swipe</p>
+      <p class="desktop-visible">Drag</p>
+    </div>
+    </div>
+    <div class="layers-container">
+      <div class="curve-container">
+        <h2>
+          <svg viewBox="0 0 500 175">
+            <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+              <text width="500">
+                <textPath xlink:href="#curve">
+                  See how it works
+                </textPath>
+              </text>
+            </svg>
+          </h2>
+        </div>
+      <div class="see_how-layers">
+        <img id="animate-first" class="third-layer" src="assets/images/globalPlayer.jpg" alt="Global Players">
+        <img id="animate-second" class="second-layer" src="assets/images/global player2.jpg" alt="Global Players">
+        <img id="animate-third"  class="first-layer" src="assets/images/global player5.jpg" alt="Global Players">
       </div>
-        <div class="see_how-layers">
-          <img  class="third-layer" src="assets/images/globalPlayer.jpg" alt="Global Players">
-          <img  class="second-layer" src="assets/images/global player2.jpg" alt="Global Players">
-          <img  class="first-layer" src="assets/images/global player5.jpg" alt="Global Players">
-          <p class="layers-desc">See how it works</p>
-      </div>
-  </div>
-
- <div id="mobile-version">
-  <section id="hero-mobile">
-    <div class="overlay">
-      <h2>Welcome to Rebel Art. The World's Finest Political Art</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique.  Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
-        
-      </p>
     </div>
   </section>
-  <section class="feature layers">
-    <div class="curve-container">
-      <h2>
-        <svg viewBox="0 0 500 175">
-          <path id="curve" fill="transparent" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
-            <text width="500">
-              <textPath xlink:href="#curve">
-                See how it works
-              </textPath>
-            </text>
-          </svg>
-        </h2>
-      </div>
-    <img id="animate-first" class="layers-transition" src="assets/images/globalPlayer.jpg" alt="Global Players">
-    <img id="animate-second" class="layers-transition" src="assets/images/global player2.jpg" alt="Global Players">
-    <img id="animate-third" class="layers-transition" src="assets/images/global player5.jpg" alt="Global Players">
-  </section>
-  <section class="feature">
-      <div class="global-container container-feature first-feature" >
-        <div class="row align-items-center need-reverse">
-          <div class=" col-lg-4 col-xl-5 feature-description left-feature__desc nopadding">
-            <h2>Have a look at the latest political art</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
-                Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
-                </p>
-                <a class="feature-link" href="/gallery">This way to our gallery</a>
-          </div>
-          <div class=" col-lg-8 col-xl-7 featured-image__container nopadding">
-              <div class="image-overlay__left">
-              </div>
-              <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
-            </div> 
-          </div>
-        </div>
-  </section>
-  <section class="feature">
-          <div class="global-container container-feature second__feature">
-        <div class="row align-items-center center">
-          <div class="col-lg-8 col-xl-7 featured-image__container second-feature-image nopadding">
-                <div class="image-overlay__right">
-              </div>
-            <img class="featured-image right-image " src="/assets/images/olympic.jpg" alt="Lorem">
-            </div> 
-          <div class="col-lg-4 col-xl-5 feature-description right-feature__desc nopadding">
-            <h2>Our brand new NFT collections</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
-                Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
-                </p>
-                <p style="color: #bbb">Collection coming soon</p>
-          </div>
-          </div>
-        </div>
-  </section>
-  <section class="feature">
-          <div class="global-container container-feature third-feature">
-        <div class="row align-items-center need-reverse">
-          <div class="col-lg-4 col-xl-5 feature-description left-feature__desc nopadding">
-            <h2>Find out more about the artist</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vulputate sapien quis erat sagittis tristique. 
-                Proin et gravida nibh. Sed nec ornare risus. Quisque et ligula eget urna dignissim tincidunt eget vulputate sapien.
-                </p>
-                <a class="feature-link" href="/about">Have a look</a>
-          </div>
-          <div class="col-lg-8 col-xl-7 featured-image__container nopadding">
-                      <div class="image-overlay__left">
-              </div>
-              <img class="featured-image" src="/assets/images/olympic.jpg" alt="Lorem">
-            </div> 
-          </div>
-  </section>
-
-   </div> 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
+   <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+      if(window.innerWidth < 1350){
+      const mySwiper = document.getElementById('mySwiper')
+      const width = 0.55 * window.innerWidth
+      const height = width * 1.34      
+      mySwiper.style.width = width + 'px'
+      mySwiper.style.height = height + 'px'
+      }
+   </script>

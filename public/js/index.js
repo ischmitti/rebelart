@@ -1,10 +1,10 @@
 
-  window.addEventListener('load', function () {
-    const script = document.createElement('script')
-    script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js'
-    const head = document.getElementsByTagName('head')[0]
-    head.appendChild(script)
-  })
+window.addEventListener('load', function () {
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js'
+  const head = document.getElementsByTagName('head')[0]
+  head.appendChild(script)
+})
 
 function navbarCollapse() {
   const navbar = document.getElementById('navbar')
@@ -20,7 +20,7 @@ function navbarCollapse() {
   }
 }
 
-if (window.location.pathname === '/') {
+if (window.location.pathname === '/' && window.innerWidth < 1200) {
   const first = document.getElementById('animate-first')
   const second = document.getElementById('animate-second')
   const third = document.getElementById('animate-third')
@@ -39,7 +39,8 @@ if (window.location.pathname === '/') {
         third.classList.remove('animate-third')
       })
     })
-    observer.observe(document.querySelector('.layers'))
+    observer.observe(document.querySelector('.see_how-layers'))
   }
   deconstruct()
 }
+
