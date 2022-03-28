@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Required meta tags -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap css -->
+    <meta name="description" content="Rebel Art offers unique political rt to enjoy and think about.">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
@@ -23,6 +22,14 @@
   </main>
     <script src="/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQCRTERSVM"></script>
+    <script type="text/plain" data-cookiecategory="analytics">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-CQCRTERSVM');
+    </script>
     <script type="text/javascript">
         window.addEventListener('load', function(){
         const cc = initCookieConsent();
@@ -44,8 +51,8 @@
             languages : {
                 en : {
                     consent_modal : {
-                        title :  "You like cookies? We have them!",
-                        description :  'Yes we use cookies. We minimized third party cookies as much as possible. We use cookies to enhance your browsing experience and analyze our traffic.',
+                        title :  "Yes, we use cookies.",
+                        description :  'We minimized third party cookies as much as possible. We use cookies to enhance your browsing experience and analyze our traffic.',
                         primary_btn: {
                             text: 'Accept All',
                             role: 'accept_all'  //'accept_selected' or 'accept_all'
@@ -53,7 +60,7 @@
                         secondary_btn: {
                             text : 'Settings',
                             role : 'settings'   //'settings' or 'accept_necessary'
-                        }
+                        },
                     },
                     settings_modal : {
                         title : 'Cookie settings',
@@ -109,8 +116,6 @@
     }
   });
 }
-  </script>
-  <script type="text/plain" data-cookiecategory="analytics">
   </script>
   </body>
 </html>

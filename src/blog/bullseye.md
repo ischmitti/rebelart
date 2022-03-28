@@ -13,7 +13,7 @@ layout: 'art.njk'
 
 
 
-<Former Italian President and the man who revealed the existence of Operation Gladio, Francesco Cossiga, has gone public on 9/11, telling Italy’s most respected newspaper that the attacks were run by the CIA and Mossad and that this was common knowledge amongst global intelligence agencies.
+Former Italian President and the man who revealed the existence of Operation Gladio, Francesco Cossiga, has gone public on 9/11, telling Italy’s most respected newspaper that the attacks were run by the CIA and Mossad and that this was common knowledge amongst global intelligence agencies.
 
 
 Cossiga was elected President of Italian Senate in July 1983 before being winning a landslide 1985 election to become President of the country in 1985.

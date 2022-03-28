@@ -41,13 +41,13 @@ body{
     font-weight: 300;
 }
 @font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-ExtraLight.ttf');
-    font-weight: 200;
-}
-@font-face {
     font-family: 'Ubuntu Mono';
     src: url('fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Londrina Shadow';
+    src: url('fonts/Londrina/LondrinaShadow-Regular.ttf');
     font-weight: 400;
 }
 h1,h2,h3,h4,h5,h6,a,p,li{
@@ -59,10 +59,17 @@ p, li{
     color: white;
 }
 a{
+    color: white;
     font-size: 19px;
     font-weight: 500;
     text-decoration: none;
 }
+
+a:hover{
+    color: inherit;
+    text-decoration: none;
+}
+
 img{
     width: 100%;
 }
@@ -98,9 +105,14 @@ footer{
     height: 50px;
     width: 50px;
 }
-footer p{
+footer p, a{
     margin-top: 0.5em;
     color: rgba( 0, 122, 120 );
+}
+footer a{
+    margin-right: 0.5em;
+    font-weight: 300;
+    font-size: 16px;
 }
 
 #hero{
@@ -116,12 +128,19 @@ footer p{
     flex-direction: column;
 }
 h1{
-    font-weight: 800;
+    font-size: 3em;
+    font-family:"Londrina Shadow", cursive;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 5px #666;
+}
+h2{
+    font-weight: 700;
+    font-size: 1.4em;
 }
 #mySwiper {
     margin-top: 1em;
-    width: 329px;
-    height: 441px;
+    width: 200px;
+    height: 268px;
 }
 
   .swiper-slide {
@@ -137,33 +156,37 @@ h1{
     background-color: #005E5D;
     padding: 1em;
   }
+  .welcome-desc h2{
+    font-weight: 800;
+  }
   .info{
-      background-color: whitesmoke;
+      background-color: #FEFCEE;
       padding: 1em;
   }
   .copyright{
     background-color: #ffeded;
   }
-  .swiper-slide:nth-child(5){
-    background-color: #f5f5f5;
-    padding: 0.5em;
-  }
   .desktop-visible{
       display: none;
   }
+  .mobile-visible{
+      display: block;
+  }
   .gallery-link .overlay-image{
-      background-color: #e4cdcd;
+      background-color: #A4ADFF;
   }
 
   .about-link .overlay-image{
-    background-color: #e4cdcd;
+    background-color: #156BFF;
 }
   .nfts-link .overlay-image{
-    background-color: #e4cdcd;
+    background-color: #4B9984;
 }
 
 .info-desc p{
     color: #030303;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .position{
@@ -179,6 +202,7 @@ h1{
 }
 
 .overlay-image p{
+    font-size: 22px;
     margin-bottom: 8px;
     font-weight:600;
 }
@@ -188,28 +212,24 @@ h1{
 }
 
 .curve-container{
-    margin-bottom: 2em;
-    display: flex;
-    justify-content: center;
-    position: relative;
+    text-align: center;
+
 }
-.curve-container h2{
-    width: 280px;
-    font-weight: 800;
-    font-size: 3em;
-    line-height: 1.5;
-    letter-spacing: 1px;
+.curve-container p{
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .see_how-layers{
     display: block;
     position: relative;
-    width: 140px;
+    width: 100%;
+    height: 200px;
 }
 .see_how-layers img{
     max-width: 140px;
     position: absolute;
-    left: 60%;
+    left: 40%;
     right: auto;
     top: 0;
     transition: all ease 2000ms;
@@ -235,16 +255,6 @@ h1{
     translateX(-50px) translateY(-40px) translateZ(0); 
     opacity: 0.8 !important;
 } 
-
-
-
-/* HERO */ 
-
-text{
-    fill: white;
-}
-
-
 
 
 /** GALLERY **/
@@ -365,6 +375,8 @@ text{
     color: #FFC745;
     line-height: 1.5;
     font-size: 22px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #FFC745;
 }
 
 .contact-card a:hover{
@@ -378,6 +390,17 @@ text{
     margin-top: 3em;
 }
 
+.notices{
+    padding: 10em 0;
+}
+
+@media screen and (min-width: 375px) {
+    #mySwiper{
+        width: 220px;
+        height: 308px;
+    }
+}
+
 @media (max-width: 400px){
     .contact-card{
     width: 18em !important;
@@ -388,8 +411,37 @@ text{
     }
 }
 
+@media screen and (min-width: 450px) {
+    #mySwiper{
+        width: 255px;
+        height: 358px;
+    }
+}
+
+@media screen and (min-width: 550px) {
+    #mySwiper{
+        width: 280px;
+        height: 389px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    #mySwiper {
+        width: 329px;
+        height: 441px;
+    }
+    h1{
+        font-size: 3.5em;
+    }
+}
 
 @media (min-width: 768px){
+    h1{
+        font-size: 4em;
+    }
+    h2{
+        font-size: 1.7em;
+    }
     p{
         font-size: 18px;
     }
@@ -414,11 +466,11 @@ text{
 }
 
 @media (min-width: 992px) {
+    h1{
+        font-size: 4.5em;
+    }
     .feature{
         padding-top: 9em;
-    }
-    h2{
-        font-size: 2.2em;
     }
     .flex-container{
         flex-direction: row;
@@ -436,6 +488,12 @@ text{
 }
 
 @media screen and (min-width: 1100px) {
+    h1{
+        font-size: 5em;
+    }
+    h2{
+        font-size: 1.9em;
+    }
     #mySwiper{
         width:350px;
         height: 469px;
@@ -451,8 +509,14 @@ text{
         align-items: center;
         flex-direction: row;
     }
+
+    .info-desc p{
+    color: #030303;
+    font-size: 22px;
+    font-weight: 500;
+}
     .captions{
-        width: 25%;
+        width: 40%;
     }
     #mySwiper{
         margin: 0 5em 0 5em !important;
@@ -461,26 +525,28 @@ text{
     .layers-container{
         margin: 0;
     }
-
+    .desktop-visible{
+        display: block;
+        font-weight: 300;
+        color: #aaa;
+    }
+    .mobile-visible{
+        display: none;
+    }
     .curve-container{
         position: absolute;
         margin-bottom: 0;
         bottom: 22.5%;
-        right: 0px;
-    }
-    .curve-container h2{
-        width: 160px;
-        font-weight: 700;
-        font-size: 3em;
-        line-height: 1.5;
-        letter-spacing: 2px;
+        right: 1em;
     }
     .see_how-layers{
         position: absolute;
         top: auto;
-        bottom: 22.5%;
-        right: 6em;
+        bottom: 14em;
+        right: 5em;
         left: auto;
+        width: 140px;
+        height: 0;
     }
     .see_how-layers img{
         position: absolute;
@@ -502,4 +568,11 @@ text{
     .see_how-layers:hover .layers-desc{
         opacity: 0;
     }
+}
+
+@media screen and (min-width: 1200px) {
+    #mySwiper{
+        margin: 0 5em 0 0 !important;
+    }
+    
 }

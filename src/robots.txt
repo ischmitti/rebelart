@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: /admin
+Disallow: /legalnotice
+Disallow: /privacy
+
+Sitemap: http://www.rebelart.com/sitemap.xml

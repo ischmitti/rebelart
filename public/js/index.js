@@ -20,27 +20,28 @@ function navbarCollapse() {
   }
 }
 
-if (window.location.pathname === '/' && window.innerWidth < 1200) {
-  const first = document.getElementById('animate-first')
-  const second = document.getElementById('animate-second')
-  const third = document.getElementById('animate-third')
-  function deconstruct () {
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          setTimeout(() => {
-            first.classList.add('animate-first')
-            second.classList.add('animate-second')
-            third.classList.add('animate-third')
-          }, 300)
-        }
-        first.classList.remove('animate-first')
-        second.classList.remove('animate-second')
-        third.classList.remove('animate-third')
+window.addEventListener('load', () =>{
+  if (window.innerWidth < 1200) {
+    const first = document.getElementById('animate-first')
+    const second = document.getElementById('animate-second')
+    const third = document.getElementById('animate-third')
+    function deconstruct () {
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              first.classList.add('animate-first')
+              second.classList.add('animate-second')
+              third.classList.add('animate-third')
+            }, 1)
+          }
+          first.classList.remove('animate-first')
+          second.classList.remove('animate-second')
+          third.classList.remove('animate-third')
+        })
       })
-    })
-    observer.observe(document.querySelector('.see_how-layers'))
+      observer.observe(document.querySelector('.see_how-layers'))
+    }
+    deconstruct()
   }
-  deconstruct()
-}
-
+})

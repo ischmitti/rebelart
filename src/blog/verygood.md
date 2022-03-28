@@ -5,7 +5,7 @@ tags: ["post", "featured"]
 image: /assets/images/veryGood.jpg
 imageAlt: veryGood
 description: VERY GOOD FRIENDS OF THE WEST AND FRIENDS OF THESE VERY GOOD FRIENDS OF THE WEST 
-dimenstion: 100cm x 70cm
+dimension: 100cm x 70cm
 layout: 'art.njk'
 ---
 

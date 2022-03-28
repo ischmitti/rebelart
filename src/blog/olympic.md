@@ -5,7 +5,7 @@ tags: ["post", "featured"]
 image: /assets/images/olympic.jpg
 imageAlt: olympic
 description: OLYMPIC 2008 ONE WORLD MANY NIGHTMARES
-dimenstion: 70cm x 100cm
+dimension: 70cm x 100cm
 layout: 'art.njk'
 ---
 

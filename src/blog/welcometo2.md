@@ -1,9 +1,9 @@
 ---
-title: Welcome to 2
+title: Welcome to (Part 2)
 date: 2021-05-15
 tags: ["post", "featured"]
 image: /assets/images/welcometo2.jpg
-imageAlt: welcome to 2
+imageAlt: welcome to (Part 2)
 dimension: 100cm x 70cm 
 description: WELCOME TO THE AGE OF HIGH AND SMART TECHNOLOGY YEAR 2011
 layout: 'art.njk'
