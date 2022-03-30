@@ -17,7 +17,7 @@
   <header>
         <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">home</a>
+          <a class="navbar-brand" href="/">RA</a>
           <button id="toggle-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="navbarCollapse()">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -41,7 +41,7 @@
       <div class="swiper-wrapper">
         <div class="swiper-slide welcome">
           <div class="welcome-desc position">
-            <h2>Welcome to Rebel Art. Political Art about the World.</h2>
+            <h2>Welcome to Rebels Art. Political Art about the World.</h2>
           </div>
         </div>
         <div class="swiper-slide">
@@ -76,15 +76,13 @@
         </div>
         </div>
         <div class="swiper-slide copyright">
-        <div class="copyrights-desc position">
-            <footer>
-<div class="social-links"><a class="icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/fontawesome/instagram-brands.svg" alt="instagram icon"></a></div>
-<p> &copy 2022 Rebel Art. All rights reserved
-</p>
-<a href="/">home</a>
-<a href="/privacypolicy">privacy policy</a>
-<a href="/legalnotice">legal notice</a>
-</footer>
+        <div class="copyright-desc position">
+          <a class="icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/fontawesome/instagram-brands.svg" alt="instagram icon"></a>
+          <p> &copy 2022 Rebels Art. All rights reserved.
+          </p>
+          <a href="/">home</a>
+          <a href="/privacypolicy">privacy policy</a>
+          <a href="/legalnotice">legal notice</a>
         </div>
         </div>
       </div>
@@ -121,30 +119,29 @@
     <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQCRTERSVM"></script>
     <script type="text/plain" data-cookiecategory="analytics">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-CQCRTERSVM');
+        gtag('config', 'G-CQCRTERSVM');
     </script>
     <script type="text/javascript">
         window.addEventListener('load', function(){
         const cc = initCookieConsent();
         document.body.classList.toggle('c_darkmode')
-        // basic configuration
+        const path = window.location.pathname
+
         cc.run({
             current_lang : 'en',
             theme_css : 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css',
             onAccept : function(){
             },
             onChange: function(){
-                // preferences changed, do something
             },
             delay: 500,
             coookie_expiration: 182,
             cookie_path: "/",
             page_scripts: true,
-            force_consent: true,
             languages : {
                 en : {
                     consent_modal : {

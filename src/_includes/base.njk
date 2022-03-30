@@ -24,30 +24,29 @@
     <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQCRTERSVM"></script>
     <script type="text/plain" data-cookiecategory="analytics">
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-CQCRTERSVM');
+        gtag('config', 'G-CQCRTERSVM');
     </script>
     <script type="text/javascript">
         window.addEventListener('load', function(){
         const cc = initCookieConsent();
         document.body.classList.toggle('c_darkmode')
-        // basic configuration
+        const path = window.location.pathname
+
         cc.run({
             current_lang : 'en',
             theme_css : 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css',
             onAccept : function(){
             },
             onChange: function(){
-                // preferences changed, do something
             },
             delay: 500,
             coookie_expiration: 182,
             cookie_path: "/",
             page_scripts: true,
-            force_consent: true,
             languages : {
                 en : {
                     consent_modal : {

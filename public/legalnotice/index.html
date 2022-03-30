@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rebel Art offers unique political rt to enjoy and think about.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" type="text/plain" data-cookiecategory="analytics"></script>
+    <title>Rebels Art - Legal Notice</title>
+</head>
+<body>
+  <header>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">RA</a>
+          <button id="toggle-btn" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" onclick="navbarCollapse()">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div id="navbar-nav" class="navbar-nav align-items-center">
+              <a class="nav-link active" href="/gallery">gallery</a>
+              <a class="nav-link active" href="/about">about</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </header>
+  <main>
+              <section class="notices">
+      <div class="global-container">
+        <h2>Legal Notice</h2>
+
+        <h3>Information according to &sect; 5 TMG</h3>
+        <h3>Responsible of Website</h3>
+        <p>Ilya Schmitt<br />
+        Zum Appthekerhof 9<br />
+        60594 Frankfurt</p>
+
+        <h3>Contact</h3>
+        <p>Mobile: +491777397734<br />
+        Email: siaparebelart@gmail.com </p>
+
+        <h3>Editorial responsibility</h3>
+        <p>Rahim Aziz<br />
+        Zum Apothekerhof 9<br />
+        60594 Frankfurt <br>
+        Email: siaparebelart@gmail.com 
+        </p>
+     </div>
+  </section>
+<footer>
+<div class="social-links"><a class="icon" href="https://instagram.com" target="_blank" rel="noopener noreferrer"><img src="../assets/fontawesome/instagram-brands.svg" alt="instagram icon"></a></div>
+<p> &copy 2022 Rebels Art. All rights reserved.
+</p>
+<a href="/">home</a>
+<a href="/privacypolicy">privacy policy</a>
+<a href="/legalnotice">legal notice</a>
+</footer>
+  </main>
+    <script src="/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQCRTERSVM"></script>
+    <script type="text/plain" data-cookiecategory="analytics">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-CQCRTERSVM');
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('load', function(){
+        const cc = initCookieConsent();
+        document.body.classList.toggle('c_darkmode')
+        const path = window.location.pathname
+
+        cc.run({
+            current_lang : 'en',
+            theme_css : 'https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@v2.8.0/dist/cookieconsent.css',
+            onAccept : function(){
+            },
+            onChange: function(){
+            },
+            delay: 500,
+            coookie_expiration: 182,
+            cookie_path: "/",
+            page_scripts: true,
+            languages : {
+                en : {
+                    consent_modal : {
+                        title :  "Yes, we use cookies.",
+                        description :  'We minimized third party cookies as much as possible. We use cookies to enhance your browsing experience and analyze our traffic.',
+                        primary_btn: {
+                            text: 'Accept All',
+                            role: 'accept_all'  //'accept_selected' or 'accept_all'
+                        },
+                        secondary_btn: {
+                            text : 'Settings',
+                            role : 'settings'   //'settings' or 'accept_necessary'
+                        },
+                    },
+                    settings_modal : {
+                        title : 'Cookie settings',
+                        save_settings_btn : "Save settings",
+                        accept_all_btn : "Accept all",
+                        reject_all_btn : "Reject all",
+                        close_btn_label: "Close",
+                        layout: 'box',                 // box/bar
+                  // position: 'left',           // left/right
+                        transition: 'slide',    
+                        blocks : [
+                            {
+                                title : "Cookie usage",
+                                description: 'We use cookies to enhance your browsing experience and analyze our traffic'
+                            },{
+                                title : "Necessary cookies",
+                                description: 'Necessary cookies help make a website usable by enabling basic functions like page navigation and access to secure areas of the website. The website cannot function properly without these cookies.',
+                                toggle : {
+                                    value : 'necessary',
+                                    enabled : true,
+                                    readonly: true
+                                }
+                            },{
+                                title : "Analytics cookies",
+                                description: 'Analytical cookies are used to understand how visitors interact with the website. These cookies help provide information on metrics such as the number of visitors, bounce rate, traffic source, etc.',
+                                toggle : {
+                                    value : 'analytics',
+                                    enabled : false,
+                                    readonly: false
+                                }
+                            },
+                            {
+                                title : "Marketing cookies",
+                                description: 'Marketing cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and thereby more valuable for publishers and third party advertisers.',
+                                toggle : {
+                                    value : 'marketing',
+                                    enabled : false,
+                                    readonly: false
+                                }
+                            },
+                        ]
+                    }
+                }
+            }
+        });
+    });
+            if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+          if (!user) {
+              window.netlifyIdentity.on("login", () => {
+                  document.location.href = "/admin/";
+      });
+    }
+  });
+}
+  </script>
+  </body>
+</html>

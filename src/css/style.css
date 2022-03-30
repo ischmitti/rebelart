@@ -50,6 +50,11 @@ body{
     src: url('fonts/Londrina/LondrinaShadow-Regular.ttf');
     font-weight: 400;
 }
+@font-face {
+    font-family: 'Yellowtail';
+    src: url('fonts/Yellowtail/Yellowtail-Regular.ttf');
+    font-weight: 400;
+}
 h1,h2,h3,h4,h5,h6,a,p,li{
     font-family: "Raleway", sans-serif;
 }
@@ -84,6 +89,12 @@ img{
 .col{
     padding: 0;
 }
+.navbar-brand{
+    font-family: 'Yellowtail', cursive;
+    font-size: 3em;
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .navbar a{
     padding-top: 0.5em;
     display: inline-block;
@@ -106,13 +117,12 @@ footer{
     width: 50px;
 }
 footer p, a{
-    margin-top: 0.5em;
     color: rgba( 0, 122, 120 );
 }
 footer a{
-    margin-right: 0.5em;
     font-weight: 300;
     font-size: 16px;
+    margin-right: 0.5em !important;
 }
 
 #hero{
@@ -127,7 +137,7 @@ footer a{
     align-items: center;
     flex-direction: column;
 }
-h1{
+#hero h1{
     font-size: 3em;
     font-family:"Londrina Shadow", cursive;
     letter-spacing: 4px;
@@ -166,6 +176,18 @@ h2{
   .copyright{
     background-color: #ffeded;
   }
+.copyright-desc{
+    padding: 0.5em;
+    text-align: center;
+}
+.copyright-desc p{
+    margin: 2em 0 0.2em;
+    color: #005E5D;
+}
+.copyright-desc a{
+    font-size: 14px;
+
+}
   .desktop-visible{
       display: none;
   }
@@ -185,7 +207,7 @@ h2{
 
 .info-desc p{
     color: #030303;
-    font-size: 19px;
+    font-size: 18px;
     font-weight: 500;
 }
 
@@ -232,7 +254,7 @@ h2{
     left: 40%;
     right: auto;
     top: 0;
-    transition: all ease 2000ms;
+    transition: all ease 1000ms;
     transform-style: preserve-3d;
 }
 
@@ -390,8 +412,11 @@ h2{
     margin-top: 3em;
 }
 
+
 .notices{
     padding: 10em 0;
+    margin: auto;
+    max-width: 768px;
 }
 
 @media screen and (min-width: 375px) {
@@ -444,6 +469,10 @@ h2{
     }
     p{
         font-size: 18px;
+    }
+    .copyright-desc a{
+        font-size: 16px;
+    
     }
     .global-container{
         padding: 0 1.5em;
@@ -514,7 +543,11 @@ h2{
     color: #030303;
     font-size: 22px;
     font-weight: 500;
-}
+    }
+    .copyright-desc a{
+        font-size: 17px;
+    
+    }
     .captions{
         width: 40%;
     }
