@@ -1,5 +1,7 @@
 User-agent: *
-
+Allow: /
+Allow: /gallery
+Allow: /about
 Disallow: /admin
 Disallow: /legalnotice
 Disallow: /privacy
