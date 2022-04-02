@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-title: "Rebels Art - Politcal Art"
+title: "RA - Art and Politics about the world"
 ---
 
   <section id="hero">
     <div class="mobile-toggle">
     <div class="captions">
-      <h1>Rebels Art. Art to enjoy. Political Topics to think about.</h1>
+      <h1>Rebels Art to enjoy. Political Topics to think about.</h1>
     </div>
     <div id="mySwiper" class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -17,7 +17,7 @@ title: "Rebels Art - Politcal Art"
         </div>
         <div class="swiper-slide">
           <a class="gallery-link position" href="/gallery">
-            <img class="hero-img" src="assets/images/türki.jpg" alt="">
+            <img class="hero-img" src="assets/images/türki.jpg" alt="gallery page">
             <div class="overlay-image">
               <p>To Our Gallery</p>
             </div>
@@ -25,7 +25,7 @@ title: "Rebels Art - Politcal Art"
         </div>
         <div class="swiper-slide">
           <a class="about-link position" href="/about">
-          <img class="hero-img" src="assets/images/LookHere (TS).jpg" alt="about">
+          <img class="hero-img" src="assets/images/LookHere (TS).jpg" alt="about page">
           <div class="overlay-image">
             <p>About this Website</p>
           </div>
@@ -33,7 +33,7 @@ title: "Rebels Art - Politcal Art"
         </div>
         <div class="swiper-slide">
           <div class="nfts-link position">
-          <img class="hero-img" src="assets/images/duBist.jpg" alt="gallery">
+          <img class="hero-img" src="assets/images/duBist.jpg" alt="nft page">
           <div class="overlay-image">
             <p>Nfts coming soon</p>
           </div> 
@@ -64,7 +64,7 @@ title: "Rebels Art - Politcal Art"
     </div>
     </div>
     <div class="layers-container">
-      <div class="curve-container">
+      <div class="layers-captions-container">
         <p>
           See how it works
           </p>
@@ -83,5 +83,30 @@ title: "Rebels Art - Politcal Art"
         effect: "cards",
         grabCursor: true,
       });
+
+      if (window.innerWidth < 1200) {
+        const first = document.getElementById('animate-first')
+        const second = document.getElementById('animate-second')
+        const third = document.getElementById('animate-third')
+        function deconstruct () {
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                setTimeout(() => {
+                  first.classList.add('animate-first')
+                  second.classList.add('animate-second')
+                  third.classList.add('animate-third')
+                }, 1)
+              }
+              first.classList.remove('animate-first')
+              second.classList.remove('animate-second')
+              third.classList.remove('animate-third')
+            })
+          })
+          observer.observe(document.querySelector('.see_how-layers'))
+        }
+        deconstruct()
+      }
+
      })
    </script>

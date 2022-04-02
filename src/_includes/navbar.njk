@@ -11,4 +11,19 @@
             </div>
           </div>
         </div>
+        <script>
+          function navbarCollapse() {
+            const navbar = document.getElementById('navbar')
+            const toggleBtn = document.getElementById('toggle-btn')
+            if (toggleBtn.classList.contains('collapsed')) {
+              setTimeout(() => {
+                navbar.style.backgroundColor = 'rgba(0,0,0,0)'
+                document.body.style.overflow = 'visible'
+              }, 340)
+            } else {
+              navbar.style.backgroundColor = '#005E5D'
+              document.body.style.overflow = 'hidden'
+            }
+          }
+        </script>
       </nav>

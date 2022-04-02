@@ -1,12 +1,12 @@
 ---
 layout: 'base.njk'
-title: "Rebels Art - Gallery"
+title: "Rebels Art- Our Art Gallery about Politics around the world"
 ---
 
 
 <div class="global-container">
     <div class="hero-gallery">
-        <p class="gallery-title">Welcome to our gallery. Select an image to learn more about it.</h3>
+        <h1 class="gallery-title">Welcome to our gallery. Select an image to learn more about it.</h1>
             <div class="row align-items-center" data-masonry='{"percentPosition": true }' >
         {%- for post in collections.post | reverse-%}
                         <div class="col-sm-12 col-md-6 col-lg-4 image-container">
@@ -18,4 +18,12 @@ title: "Rebels Art - Gallery"
         </div>
     </div>
   {%include 'footer.njk' %}
+  <script>
+  window.addEventListener('load', function () {
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js'
+  const head = document.getElementsByTagName('head')[0]
+  head.appendChild(script)
+  })
+  </script>
 </div>
