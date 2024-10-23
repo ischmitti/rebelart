@@ -1,111 +1,21 @@
 ---
 layout: base.njk
-title: "RA - Art and Politics about the world"
+metatitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
+description: "Entdecken Sie maßgeschneiderte Personallösungen, effiziente Rekrutierung und gezielte Personalbeschaffung
+mit unserem erfahrenen Team."
+ogtitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
+ogdescription: "Karatronics - Ihr Personalmanagement in Frankfurt / Umgebung"
+ogurl: "https://karatronics.de"
+canonical: "https://karatronics.de"
+oglocale: "de_DE"
+style: "/css/masonry.css"
+mobile: "mobile"
+tablet: "tablet"
 ---
 
-  <section id="hero">
-    <div class="mobile-toggle">
-    <div class="captions">
-      <h1>Rebels Art to enjoy. Political Topics to think about.</h1>
+<section class="hero">
+    <div class="hero-inner">
+        <h1>Rebel Art</h1>
+        <img class="loteos" src="/assets/loteosno1_tablet.webp" alt="">
     </div>
-    <div id="mySwiper" class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide welcome">
-          <div class="welcome-desc position">
-            <h2>Welcome to Rebels Art. Political Art about the World.</h2>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <a class="gallery-link position" href="/gallery">
-            <img class="hero-img" src="assets/images/türki.jpg" alt="gallery page" loading="lazy">
-            <div class="overlay-image">
-              <p>To Our Gallery</p>
-            </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a class="about-link position" href="/about">
-          <img class="hero-img" src="assets/images/LookHere (TS).jpg" alt="about page" loading="lazy">
-          <div class="overlay-image">
-            <p>About this Website</p>
-          </div>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <div class="nfts-link position">
-          <img class="hero-img" src="assets/images/duBist.jpg" alt="nft page" loading="lazy">
-          <div class="overlay-image">
-            <p>Nfts coming soon</p>
-          </div> 
-          </div>
-        </div>
-        <div class="swiper-slide info">
-        <div class="info-desc position">
-          <p>
-            I put into Art what bothers my mind. I question the politics of war, greed, injustice and racism in my artwork.
-          </p>
-        </div>
-        </div>
-        <div class="swiper-slide copyright">
-        <div class="copyright-desc position">
-          <a class="icon" href="https://www.instagram.com/reb_artist/" target="_blank" rel="noopener noreferrer"><img src="../assets/fontawesome/instagram-brands.svg" alt="instagram icon"></a>
-          <p> &copy 2022 Rebels Art. All rights reserved.
-          </p>
-          <a href="/privacypolicy">privacy policy</a>
-          <a href="/legalnotice">legal notice</a>
-        </div>
-        </div>
-      </div>
-    </div>
-    <div>
-      <p class="mobile-visible">Swipe</p>
-      <p class="desktop-visible">Drag</p>
-    </div>
-    </div>
-    <div class="layers-container">
-      <div class="layers-captions-container">
-        <p>
-          See how it works
-          </p>
-        </div>
-      <div class="see_how-layers">
-        <img id="animate-first" class="third-layer" src="assets/images/globalPlayer.jpg" alt="Global Players" loading="lazy">
-        <img id="animate-second" class="second-layer" src="assets/images/global player2.jpg" alt="Global Players" loading="lazy">
-        <img id="animate-third"  class="first-layer" src="assets/images/global player5.jpg" alt="Global Players" loading="lazy">
-      </div>
-    </div>
-  </section>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>  
-   <script>
-     window.addEventListener('load', () =>{
-      var swiper = new Swiper(".mySwiper", {
-        effect: "cards",
-        grabCursor: true,
-      });
-
-      if (window.innerWidth < 1200) {
-        const first = document.getElementById('animate-first')
-        const second = document.getElementById('animate-second')
-        const third = document.getElementById('animate-third')
-        function deconstruct () {
-          const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                setTimeout(() => {
-                  first.classList.add('animate-first')
-                  second.classList.add('animate-second')
-                  third.classList.add('animate-third')
-                }, 1)
-              }
-              first.classList.remove('animate-first')
-              second.classList.remove('animate-second')
-              third.classList.remove('animate-third')
-            })
-          })
-          observer.observe(document.querySelector('.see_how-layers'))
-        }
-        deconstruct()
-      }
-
-     })
-   </script>
+</section>

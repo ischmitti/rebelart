@@ -1,29 +1,75 @@
 ---
-layout: 'base.njk'
-title: "Rebels Art- Our Art Gallery about Politics around the world"
+layout: base.njk
+title: "Karatronics - Personalmanagement"
+metatitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
+description: "Entdecken Sie maßgeschneiderte Personallösungen, effiziente Rekrutierung und gezielte Personalbeschaffung
+mit unserem erfahrenen Team."
+ogtitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
+ogdescription: "Karatronics - Ihr Personalmanagement in Frankfurt / Umgebung"
+ogurl: "https://karatronics.de"
+canonical: "https://karatronics.de"
+oglocale: "de_DE"
+style: "/css/gallery.css"
 ---
-
-
-<div class="global-container">
-    <div class="hero-gallery">
-        <h1 class="gallery-title">Welcome to our gallery. Select an image to learn more about it.</h1>
-            <div class="row align-items-center" data-masonry='{"percentPosition": true }' >
-        {%- for post in collections.post | reverse-%}
-                        <div class="col-sm-12 col-md-6 col-lg-4 image-container">
-                            <a class="image-link" href="{{ post.url }}">
-                          <img class="gallery-image" src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
-                            </a>
-                        </div>
-        {%- endfor -%}
+<div data-scroll-container>
+  <div class="wrapper" data-scroll-section>
+    <section data-scroll-section>
+      <h1 data-scroll data-scroll-speed="1">Rebel <br> Arts</h1>
+    </section>
+    <section data-scroll-section>
+      <a href="/gallery/politics">
+        <img src="/assets/politics/lookhereTS_tablet.webp" alt="Political Gallery">
+        <div>
+          <h2 data-scroll data-scroll-speed="2">Talk Politics</h2>
+          <p data-scroll data-scroll-speed="-1">political knowledge integrated into art</p>
         </div>
-    </div>
-  {%include 'footer.njk' %}
-  <script>
-  window.addEventListener('load', function () {
-  const script = document.createElement('script')
-  script.src = 'https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js'
-  const head = document.getElementsByTagName('head')[0]
-  head.appendChild(script)
-  })
-  </script>
+      </a>
+    </section>
+    <section data-scroll-section>
+      <a href="/gallery/musicians">
+        <img src="/assets/musicians/Cellist.webp" alt="Musicians Gallery">
+        <div>
+          <h2 data-scroll data-scroll-speed="1">Music</h2>
+          <p data-scroll data-scroll-speed="2">makes me lose control. Let's Go!</p>
+        </div>
+      </a>
+    </section>
+    <section data-scroll-section>
+      <a href="/gallery/random">
+        <img src="/assets/random/M4.webp" alt="Other Gallery">
+        <div>
+          <h2 data-scroll data-scroll-speed="1">What's up?</h2>
+          <p data-scroll data-scroll-speed="2">😬</p>
+        </div>
+      </a>
+    </section>
+    <section data-scroll-section>
+      <a href="/gallery/politics">
+        <img src="/assets/politics/Look here (TS).webp" alt="Political Gallery">
+        <div>
+          <h2 data-scroll data-scroll-speed="1">Talk Politics</h2>
+          <p data-scroll data-scroll-speed="2">Here</p>
+        </div>
+      </a>
+    </section>
+  </div>
 </div>
+<script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+<script>
+  window.addEventListener("load", function () {
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+      direction: 'horizontal',
+      lerp: 0.05,
+      tablet: {
+        smooth: true,
+        direction: 'horizontal',
+      },
+      mobile: {
+        smooth: false
+      }
+    });
+  });
+
+</script>

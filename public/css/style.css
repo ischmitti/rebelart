@@ -1,610 +1,69 @@
-
-*
-{box-sizing: border-box;
+* {
+    box-sizing: border-box;
     margin: 0;
-	padding: 0;
+    padding: 0;
 }
-body{
-    background-color: #030303;
+
+body {
+    background-color: #090909;
     color: white;
     overflow-x: hidden;
-}
-
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-Black.ttf');
-    font-weight: 900;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-ExtraBold.ttf');
-    font-weight: 800;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-Bold.ttf');
-    font-weight: 700;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-Medium.ttf');
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-Regular.ttf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Raleway';
-    src: url('fonts/Raleway/static/Raleway-Light.ttf');
-    font-weight: 300;
-}
-@font-face {
-    font-family: 'Ubuntu Mono';
-    src: url('fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Londrina Shadow';
-    src: url('fonts/Londrina/LondrinaShadow-Regular.ttf');
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'Yellowtail';
-    src: url('fonts/Yellowtail/Yellowtail-Regular.ttf');
-    font-weight: 400;
-}
-h1,h2,h3,h4,h5,h6,a,p,li{
-    font-family: "Raleway", sans-serif;
-}
-p, li{
-    font-size: 17px;
-    line-height: 1.8;
-    color: white;
+    font-family: 'Titillium';
 }
 a{
     color: white;
-    font-size: 19px;
-    font-weight: 500;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-a:hover{
-    color: inherit;
     text-decoration: none;
 }
 
-img{
-    width: 100%;
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/Titillium/TitilliumWeb-Black.ttf');
+    font-weight: 900;
 }
-.global-container{
-    max-width: 1400px;
-    padding: 0 0.75em;
-    margin: auto;
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/Titillium/TitilliumWeb-Bold.ttf');
+    font-weight: 700;
 }
-.row{
-    margin: 0;
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/Titillium/TitilliumWeb-Regular.ttf');
+    font-weight: 400;
 }
-.col{
-    padding: 0;
-}
-.navbar-brand{
-    font-family: 'Yellowtail', cursive;
-    font-size: 3em;
-    margin: 0 !important;
-    padding: 0 !important;
-}
-.navbar a{
-    padding-top: 0.5em;
-    display: inline-block;
-}
-.navbar a:hover{
-   transform: scale(1.1);
-   padding-top: 0.5em;
-}
-.nav-link{
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-footer{
-    margin-top: 4em;
-    padding: 1.4em;
-    text-align: center;
-}
-.icon img{
-    height: 50px;
-    width: 50px;
-}
-footer p, a{
-    color: rgba( 0, 122, 120 );
-}
-footer a{
+
+@font-face {
+    font-family: 'Titillium';
+    src: url('fonts/Titillium/TitilliumWeb-Light.ttf');
     font-weight: 300;
-    font-size: 16px;
-    margin-right: 0.5em !important;
 }
-
-#hero{
-    padding: 0 1em;
-}
-
-.mobile-toggle{
-    height: 100vh;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-#hero h1{
-    font-size: 3em;
-    font-family:"Londrina Shadow", cursive;
-    letter-spacing: 4px;
-    text-shadow: 1px 1px 5px #666;
-}
-h2{
-    font-weight: 700;
-    font-size: 1.4em;
-}
-#mySwiper {
-    margin-top: 1em;
-    width: 200px;
-    height: 268px;
-}
-
-  .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #030303;
-  }
-  .welcome {
-    background-color: #005E5D;
-    padding: 1em;
-  }
-  .welcome-desc h2{
-    font-weight: 800;
-  }
-  .info{
-      background-color: #FEFCEE;
-      padding: 1em;
-  }
-  .copyright{
-    background-color: #ffeded;
-  }
-.copyright-desc{
-    padding: 0.5em;
-    text-align: center;
-}
-.copyright-desc p{
-    margin: 2em 0 0.2em;
-    color: #005E5D;
-}
-.copyright-desc a{
-    font-size: 14px;
-
-}
-  .desktop-visible{
-      display: none;
-  }
-  .mobile-visible{
-      display: block;
-  }
-  .gallery-link .overlay-image{
-      background-color: #A4ADFF;
-  }
-
-  .about-link .overlay-image{
-    background-color: #156BFF;
-}
-  .nfts-link .overlay-image{
-    background-color: #4B9984;
-}
-
-.info-desc p{
-    color: #030303;
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.position{
-    position: relative;
-}
-
-.overlay-image{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    width: 100%;
-}
-
-.overlay-image p{
-    font-size: 22px;
-    margin-bottom: 8px;
-    font-weight:600;
-}
-
-.layers-container{
-    margin: 0 0 15em;
-}
-
-.layers-captions-container{
-    text-align: center;
-    display: block;
-
-}
-.layers-captions-container p{
-    font-size: 1.2em;
-    font-weight: 500;
-    margin-bottom: 1em;
-}
-
-.see_how-layers{
-    display: block;
-    position: relative;
-    width: 100%;
-    height: 200px;
-}
-.see_how-layers img{
-    max-width: 140px;
-    position: absolute;
-    left: 35%;
-    right: auto;
-    top: 0;
-    transition: all ease 1000ms;
-    transform-style: preserve-3d;
-}
-
-.first-layer, .second-layer{
-    opacity: 0;
-}
-
-.animate-first{
-    transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-    translateX(100px) translateY(-20px) translateZ(0); 
-}
-
- .animate-second{
-    transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-    translateX(25px) translateY(-30px) translateZ(0);
-    opacity: 0.7 !important;
-}
-.animate-third{
-    transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-    translateX(-50px) translateY(-40px) translateZ(0); 
-    opacity: 0.8 !important;
-} 
-.hero-gallery{
-    margin-top: 4em;
-}
-
-.image-container{
-    padding: 0.25em 0;
-} 
-.gallery-title{
-    font-weight: 500;
-    text-align: center;
-    font-size: 1.5em;
-    padding: 1em 3em;
-}
-.art-container{
-    padding-top: 6em;
-} 
-
-.art-content{
-    margin: auto;
-    margin-top: 5em;
-    max-width: 768px;
-}
-
-.explore-more{
-    margin-top: 2em;
-    display: inline-block;
-}
-
-.explore-more:hover{
-    color:white;
-    transform: scale(1.05)
-}
-.art-image__col{
-    text-align: center;
-}
-#about{
-    min-height: 80vh;
-}
-
-.about-container{
-    padding-top:5em;
-}
-
-.about-desc{
-    max-width: 767px;
-}
-#about h1{
-    font-size: 2.8em;
-    font-weight: 700;
-}
-.typewriter{
-    word-spacing: 1px;
-    font-family: 'Ubuntu Mono', serif;
-    position:relative;
-    width: max-content;
-    flex-wrap: nowrap;
-}
-
-.typewriter::before,
-.typewriter::after{
-    content:"";
-    position: absolute;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-}
-
-.typewriter::before{
-    background:rgba( 0, 122, 120);
-    animation: typewriting 4s steps(23) 1s forwards;
-}
-
-.typewriter::after{
-    width: 0.05em;
-    background-color: #FFC745;
-    animation:
-    typewriting 4s steps(23) 1s forwards,
-    blink 800ms steps(23) infinite; 
-
-}
-
-@keyframes typewriting{
-    to {left: 100%}
-}
-
-@keyframes blink{
-    to {
-        background: transparent;
-    }
-}
-
-.contact-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-    padding: 2%;
-    width: 22em;
-    height: 12em;
-    background: rgba( 0, 122, 120 );
-    box-shadow: 0 8px 32px 0 rgba(0, 122, 120, 0.37);
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 6px;
-}
-
-
-.contact-card a{
-    display: inline-block;
-    color: #FFC745;
-    line-height: 1.5;
-    font-size: 22px;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #FFC745;
-}
-
-.contact-card a:hover{
-    text-decoration: none;
-    -webkit-transform: scale(1.05);
-    transform: scale(1.05);
-    padding: 4px;
-}
-
-.about-desc{
-    margin-top: 3em;
-}
-
-
-.notices{
-    padding: 10em 0;
-    margin: auto;
-    max-width: 768px;
-}
-
-@media screen and (min-width: 375px) {
-    #mySwiper{
-        width: 220px;
-        height: 308px;
-    }
-}
-
-@media (max-width: 400px){
-    .contact-card{
-    width: 18em !important;
-    height: 10em !important;
-    }
-    .contact-card a{
-        font-size: 19px !important;
-    }
-}
-
-@media screen and (min-width: 450px) {
-    #mySwiper{
-        width: 255px;
-        height: 358px;
-    }
-}
-
-@media screen and (min-width: 550px) {
-    #mySwiper{
-        width: 280px;
-        height: 389px;
-    }
-}
-
-@media screen and (min-width: 650px) {
-    #mySwiper {
-        width: 329px;
-        height: 441px;
-    }
-    h1{
-        font-size: 3.2em;
-    }
-}
-
-@media (min-width: 768px){
-    h1{
-        font-size: 3.7em;
-    }
-    h2{
-        font-size: 1.7em;
-    }
-    p{
-        font-size: 18px;
-    }
-    .copyright-desc a{
-        font-size: 16px;
-    
-    }
-    .global-container{
-        padding: 0 1.5em;
-    }
-    .image-container{
-        padding: 0.25em;
-    }
-    .feature .row{
-        justify-content: center;
-    }
-}
-
-@media (max-width: 991px){
-    .nav-link{
-        font-size: 1.5em;
-    }
-    .navbar-nav{
-        min-height:100vh;
-    }
-}
-
-@media (min-width: 992px) {
-    h1{
-        font-size: 4em;
-    }
-    .feature{
-        padding-top: 9em;
-    }
-    .flex-container{
-        flex-direction: row;
-    }
-    .art-image__col{
-        text-align: left;
-    }
-    .art-image__col{
-        text-align: center;
-    }
-    .feature > .global-container{
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-
-@media screen and (min-width: 1100px) {
-    .captions{
-        margin-right: 1em;
-    }
-    #hero h1{
-        font-size: 5em;
-    }
-    h2{
-        font-size: 1.9em;
-    }
-    p{
-        font-size: 19px;
-    }
-    #mySwiper{
-        width:350px;
-        height: 469px;
-    }
-    #hero{
+@media screen and (min-width: 1024px) {
+    .hero{
         height: 100vh;
-        padding: 0 15% ;
-    }
-    .mobile-toggle{
+        width: 100vw;
         display: flex;
-        position: relative;
+        align-items: cente  r;
         justify-content: center;
+    }
+    .hero-inner{
+        margin: auto;
+        width: 80vw;
+        height: 80vh;        
+        position: relative;
+        display: flex;
         align-items: center;
-        flex-direction: row;
+        justify-content: center;
     }
-
-    .info-desc p{
-    color: #030303;
-    font-size: 22px;
-    font-weight: 500;
+    h1{
+        width: fit-content;
+        margin: auto;
+        font-size: 120px;
     }
-    .copyright-desc a{
-        font-size: 17px;
-    
-    }
-    .captions{
-        width: 45%;
-    }
-    #mySwiper{
-        margin: 0 5em 0 5em !important;
-    }
-
-    .layers-container{
-        margin: 0;
-    }
-    .desktop-visible{
-        display: block;
-        font-weight: 300;
-        color: #aaa;
-    }
-    .mobile-visible{
-        display: none;
-    }
-    .layers-captions-container{
-        display: none;
-    }
-    .see_how-layers{
+    .loteos{
         position: absolute;
-        top: auto;
-        bottom: 16em;
-        right: 5em;
-        left: auto;
-        width: 140px;
-        height: 0;
+        width: 1000px;
+        right: 10vh;
+        top: -5vh;
     }
-    .see_how-layers img{
-        position: absolute;
-    }
-    .see_how-layers:hover .third-layer{
-        transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-        translateX(0px) translateY(-20px) translateZ(0); 
-    }
-    .see_how-layers:hover .second-layer{
-        transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-        translateX(-75px) translateY(-30px) translateZ(0);
-        opacity: 0.7;
-    }
-    .see_how-layers:hover .first-layer{
-        transform: perspective(1200px) rotateX(20deg) rotateY(20deg) rotateZ(-10deg)
-        translateX(-150px) translateY(-40px) translateZ(0); 
-        opacity: 0.9;
-    }
-    .see_how-layers:hover .layers-desc{
-        opacity: 0;
-    }
-}
-
-@media screen and (min-width: 1200px) {
-    #mySwiper{
-        margin: 0 5em 0 0 !important;
-    }
-    
 }
