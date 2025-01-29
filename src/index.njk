@@ -14,8 +14,82 @@ tablet: "tablet"
 ---
 
 <section class="hero">
-    <div class="hero-inner">
-        <h1>Rebel Art</h1>
-        <img class="loteos" src="/assets/loteosno1_tablet.webp" alt="">
-    </div>
+        <div class="hero-row">
+                <div class="hero-img-wrap">
+                        <img class="hero-img" src="/assets/images/ulno1.jpg" alt="">
+                        <div class="hero-img-overlay"></div>
+                </div>
+                <div class="hero-links">
+                        <h1>Rebel <br>
+                                Arts</h1>
+                        <div class="h1-wrapper">
+                                <div class="h-line-wrap a1">
+                                        <a href="/gallery">gallery</a>
+                                        <div class="hero-line a1-line"></div>
+                                </div>
+                                <div class="h-line-wrap a2">
+                                        <a href="/poster">poster</a>
+                                        <div class="hero-line a2-line"></div>
+                                </div>
+                                <div class="h-line-wrap a3">
+                                        <a href="/about">about</a>
+                                        <div class="hero-line a3-line"></div>
+                                </div>
+                                <div class="flair"></div>
+                        </div>
+                </div>
+        </div>
+        <div class="copyright">
+                <p>
+                        Copyright Rebel Arts 2024
+                </p>
+                <div>
+                        <a class="legal-a" href="/legal">Legal</a>
+                        <a href="/imprint">Imprint</a>
+                </div>
+        </div>
 </section>
+<script>
+        window.addEventListener("load", function () {
+                gsap.set(".flair", { xPercent: 1, yPercent: -1 });
+                let xSetter = gsap.quickSetter(".flair", "x", "px") //apply it to the #id element's x property and append a "px" unit
+                let ySetter = gsap.quickSetter(".flair", "y", "px") //apply it to the #id element's x property and append a "px" unit
+                const width = window.innerWidth;
+                const height = window.innerHeight;
+                const herowrap = document.querySelector(".hero-img-wrap");
+                document.querySelector("body").addEventListener("mousemove", (e) => {
+                        let x = e.clientX * 0.01;
+                        let y = e.clientY * 0.01;
+                        herowrap.style.transform = "translate(" + x + "px," + y + "px)";
+                })
+                document.querySelector(".h1-wrapper").addEventListener("mousemove", e => {
+                        xSetter(e.x)
+                        ySetter(e.y)
+                });
+                document.querySelector(".a1").addEventListener("mouseenter", e => {
+                        document.querySelector(".flair").style.width = "500px;"
+                })
+                document.querySelector(".a1").addEventListener("mouseleave", () => {
+                })
+                document.querySelector(".a2").addEventListener("mouseover", () => {
+                        document.querySelector(".h1-wrapper").classList.add("trigger")
+                        document.querySelector(".h1-wrapper").classList.add("triggerposter")
+                })
+                document.querySelector(".a2").addEventListener("mouseleave", () => {
+                        document.querySelector(".h1-wrapper").classList.remove("triggerposter")
+                        // setTimeout(() => {
+                        document.querySelector(".h1-wrapper").classList.remove("trigger")
+                        // }, 500);
+                })
+                document.querySelector(".a3").addEventListener("mouseover", () => {
+                        document.querySelector(".h1-wrapper").classList.add("trigger")
+                        document.querySelector(".h1-wrapper").classList.add("triggerabout")
+                })
+                document.querySelector(".a3").addEventListener("mouseleave", () => {
+                        document.querySelector(".h1-wrapper").classList.remove("triggerabout")
+                        // setTimeout(() => {
+                        document.querySelector(".h1-wrapper").classList.remove("trigger")
+                        // }, 500);
+                })
+        });
+</script>

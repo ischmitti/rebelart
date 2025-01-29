@@ -36,7 +36,6 @@ section:nth-child(odd) {
 }
 
 @media screen and (max-width:1024px) {
-
   h2,
   p {
     opacity: 0;
@@ -222,6 +221,7 @@ section:nth-child(odd) {
     display: flex !important;
     align-items: center;
     justify-content: flex-start;
+    max-width: 3000px;
   }
 
   section {

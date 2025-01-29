@@ -772,53 +772,63 @@ style: "/css/masonry.css"
         </div>
     </div>
 </section>
+<section class="backhome">
+    <a href="/gallery">Gallery</a>
+    <a href="/gallery/random">Random Topics</a>
+    </section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
 <script>
+    if (window.innerWidth >= 800) {
     var grid = document.querySelector('.grid');
     var msnry = new Masonry(grid, {
         itemSelector: '.grid-item',
         columnWidth: 200
     });
-    jQuery(document).ready(function ($) {
-        $(document).on("click", function (e) {
-            if (e.target.className == "image-info") {
-                var thiselement = e.target.parentElement.parentElement;
-                if (thiselement.className == "grid-item") {
-                    openImage(thiselement, false)
-                } else {
-                    openImage(thiselement, true);
+
+        jQuery(document).ready(function ($) {
+            $(document).on("click", function (e) {
+                if (e.target.className == "image-info") {
+                    var thiselement = e.target.parentElement.parentElement;
+                    if (thiselement.className == "grid-item") {
+                        openImage(thiselement, false)
+                    } else {
+                        openImage(thiselement, true);
+                    }
+                } else if (e.target.className == "image-overlay") {
+                    var thiselement = e.target.parentElement;
+                    if (thiselement.className == "grid-item") {
+                        openImage(thiselement, false);
+                    } else {
+                        openImage(thiselement, true);
+                    }
                 }
-            } else if (e.target.className == "image-overlay") {
-                var thiselement = e.target.parentElement;
-                if (thiselement.className == "grid-item") {
-                    openImage(thiselement, false);
-                } else {
-                    openImage(thiselement,true);
+                else {
+                    $("body").removeClass("overflow-hidden");
+                    $(".show-image").removeClass("overflow-hidden");
+                    $(".show-image").removeClass("visibility-show");
+                    if ($(".show-img").hasClass("horizontal-img")) {
+                        $(".show-img").removeClass("horizontal-img");
+                    }
                 }
-            }
-            else {
-                $("body").removeClass("overflow-hidden");
-                $(".show-image").removeClass("overflow-hidden");
-                $(".show-image").removeClass("visibility-show");
+            });
+            function openImage(thiselement, horizontal) {
+                $("body").addClass("overflow-hidden")
+                $(".show-image").addClass("visibility-show");
+                $(".show-image").css({ top: $(window).scrollTop() })
+                var imgsrc = thiselement.children[0].children[0].srcset;
+                var imgtxt = thiselement.children[1].children[0].innerHTML;
+                $(".show-img").attr("src", imgsrc);
+                $(".show-p").text(imgtxt);
+                if (horizontal) {
+                    $(".show-img").addClass("horizontal-img");
+                    if (window.innerWidth > 1440) {
+                        $(".show-inner").css({ maxWidth: 1200 })
+                    }
+                }
             }
         });
-        function openImage(thiselement, horizontal) {
-            $("body").addClass("overflow-hidden")
-            $(".show-image").addClass("visibility-show");
-            $(".show-image").css({ top: $(window).scrollTop() })
-            var imgsrc = thiselement.children[0].children[0].srcset;
-            var imgtxt = thiselement.children[1].children[0].innerHTML;
-            $(".show-img").attr("src", imgsrc);
-            $(".show-p").text(imgtxt);
-            if (horizontal) {
-                $(".show-img").addClass("horizontal-img");
-                if (window.innerWidth > 1440) {
-                    $(".show-inner").css({ maxWidth: 1200 })
-                }
-            }
-        }
-    });
+    }
 </script>

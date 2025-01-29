@@ -1,9 +1,12 @@
 module.exports = function (eleventyConfig){
 
     eleventyConfig.addPassthroughCopy("./src/assets");
+    eleventyConfig.addWatchTarget("./src/assets");
     eleventyConfig.addPassthroughCopy("./src/css/");
-    eleventyConfig.addPassthroughCopy("./src/admin") 
     eleventyConfig.addWatchTarget("./src/css/");
+    eleventyConfig.addPassthroughCopy("./src/css/fonts/");
+    eleventyConfig.addWatchTarget("./src/css/fonts/");
+    eleventyConfig.addPassthroughCopy("./src/admin");
     eleventyConfig.addPassthroughCopy("./src/js/");
     eleventyConfig.addWatchTarget("./src/js/");
 

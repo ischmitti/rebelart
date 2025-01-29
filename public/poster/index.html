@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="title" content="" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="" />
+  <meta name="description" content="" />
+  <meta property="og:title" content="" />
+  <meta property="og:site_name" content="karatronics" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="/images/logos/logo_meta.webp" />
+  <meta name="google-site-verification" content="eI7rCIy12oOLS-wYKVT26ZDkwZoTwQF5FWbCQ3FuxCs" />
+  <link rel="canonical" href="" />
+  <link rel="apple-touch-icon" href="/images/logos/logo_cropped_192.png" />
+  <link rel="icon" href="/images/logos/logo_cropped_192.png" sizes="192x192" />
+  <link rel="icon" href="/images/logos/logo_cropped_96.png" sizes="96x96" />
+  <link rel="icon" href="/images/logos/logo_cropped_64.png" sizes="64x64" />
+  <link rel="icon" href="/images/logos/logo_cropped_32.png" sizes="32x32" />
+  <link rel="icon" href="/images/logos/logo_cropped_16.png" sizes="16x16" />
+  <link rel="shortcut icon" href="/images/logos/fav.icon" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/images/logos/fav.icon" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="" />
+  <title>Get a Poster - Rebelsart</title>
+</head>
+
+<body>
+  <header>
+    
+  </header>
+  <div class="page-transition">
+    <div class="transition-overlay1">
+    </div>
+    <div class="transition-overlay2">
+    </div>
+  </div>
+  <main>
+    
+<header class="poster-navigation">
+    <a href="/">Home</a>
+    <a href="/gallery">Gallery</a>
+</header>
+<section class="poster" data-scroll-section>
+    <h1>Get yourself a Poster</h1>
+    <p>
+        We offer a wide range of posters in various sizes. To place an order, simply email us with the links or
+        references of the posters you’re interested in. We’ll be happy to assist!
+        <br>
+        <a href="mailto:"></a>
+    </p>
+    <ul>
+        <li>Postcard: </li>
+        <li>A4: </li>
+        <li>A3: </li>
+        <li>A2: </li>
+    </ul>
+</section>
+  </main>
+  <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script>
+    window.addEventListener("load", function () {
+      const overlay1 = document.querySelector('.transition-overlay1');
+      const overlay2 = document.querySelector('.transition-overlay2');
+      let duration = 0.5;
+      if (window.innerWidth > 800) {
+        duration = 1;
+      }
+      const currentPath = window.location.pathname;
+      // if (currentPath === "/" || currentPath === "/personaldienstleistung-frankfurt" || currentPath === "/personaldienstleistung-memmingen" || currentPath === "/karriere/lagermitarbeiter-flughafen-leipzig" || currentPath === "/karriere/sicherheitsmitarbeiter-flughafen-frankfurt") {
+      //   overlay2.style.display = 'none';
+      // }  
+      // else {
+      gsap.to(overlay2, {
+        duration: duration,
+        width: '0',
+        ease: 'power2.out',
+      });
+      // }
+
+      document.querySelectorAll('.inner-direct').forEach(link => {
+        link.addEventListener('click', (e) => {
+          e.preventDefault();
+          const url = e.currentTarget.href;
+          gsap.to(overlay1, {
+            duration: duration,
+            width: '100%',
+            ease: 'power2.out',
+            onStart: () => { },
+            onComplete: () => {
+              window.location.href = url;
+            }
+          });
+        });
+      });
+      
+    });
+  </script>
+</body>
+
+</html>
