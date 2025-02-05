@@ -1,32 +1,34 @@
 ---
 layout: base.njk
-title: "Karatronics - Personalmanagement"
-metatitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
-description: "Entdecken Sie maßgeschneiderte Personallösungen, effiziente Rekrutierung und gezielte Personalbeschaffung
-mit unserem erfahrenen Team."
-ogtitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
-ogdescription: "Karatronics - Ihr Personalmanagement in Frankfurt / Umgebung"
-ogurl: "https://karatronics.de"
-canonical: "https://karatronics.de"
-oglocale: "de_DE"
+title: ""
+metatitle: ""
+description: ""
+ogtitle: ""
+ogdescription: ""
+ogurl: ""
+canonical: ""
 style: "/css/masonry.css"
 ---
+
+<section class="hero-image">
+    <h1>Political Section</h1>
+    <div class="hover-flex">
+        <p>Click on the picture you want to inspect.</p>
+        <div class="show-hover">
+            <img class="hover-img last-hover" src="/assets/howitworks/global playerlast_hover.webp" alt="Political Image">
+            <img class="hover-img middle-hover" src="/assets/howitworks/global player_middle_hover.webp" alt="Political Image">
+            <img class="hover-img first-hover" src="/assets/howitworks/globalPlayer_hover.webp" alt="Political Image">
+        </div>
+    </div>
+</section>
 <div class="show-image">
     <div class="show-inner">
         <p class="show-p"></p>
         <img class="show-img" src="" alt="Political Image">
     </div>
 </div>
-<section class="hero-image">
-    <h1>Political Section</h1>
-    <div>
-        <p>Click on the picture you want to inspect.</p>
-        <button class="howitworks">i</button>
-    </div>
-</section>
 <section class="image-section">
     <div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
-
         <div class="grid-item">
             <picture>
                 <source media="(min-width:433px)" srcset="/assets/politics/caution_tablet.webp" type="image/webp"
@@ -775,18 +777,22 @@ style: "/css/masonry.css"
 <section class="backhome">
     <a href="/gallery">Gallery</a>
     <a href="/gallery/random">Random Topics</a>
-    </section>
+</section>"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
 <script>
-    if (window.innerWidth >= 800) {
-    var grid = document.querySelector('.grid');
-    var msnry = new Masonry(grid, {
-        itemSelector: '.grid-item',
-        columnWidth: 200
+    const showhover = document.querySelector(".show-hover");
+    showhover.addEventListener("click",() =>{
+        showhover.classList.toggle("unfold")
     });
+    if (window.innerWidth >= 800) {
+        var grid = document.querySelector('.grid');
+        var msnry = new Masonry(grid, {
+            itemSelector: '.grid-item',
+            columnWidth: 200
+        });
 
         jQuery(document).ready(function ($) {
             $(document).on("click", function (e) {

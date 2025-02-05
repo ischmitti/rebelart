@@ -1,29 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="Karatronics - Ihr Personalmanagement in Frankfurt" />
+  <meta name="title" content="Rebelart" />
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content="de_DE" />
-  <meta name="description" content="Entdecken Sie maßgeschneiderte Personallösungen, effiziente Rekrutierung und gezielte Personalbeschaffung mit unserem erfahrenen Team." />
-  <meta property="og:title" content="Karatronics - Ihr Personalmanagement in Frankfurt" />
+  <meta property="og:locale" content="en_GB" />
+  <meta name="description" content="" />
+  <meta property="og:title" content="" />
   <meta property="og:site_name" content="karatronics" />
-  <meta property="og:description" content="Karatronics - Ihr Personalmanagement in Frankfurt / Umgebung" />
-  <meta property="og:url" content="https://karatronics.de" />
-  <meta property="og:image" content="/images/logos/logo_meta.webp" />
-  <meta name="google-site-verification" content="eI7rCIy12oOLS-wYKVT26ZDkwZoTwQF5FWbCQ3FuxCs" />
-  <link rel="canonical" href="https://karatronics.de" />
-  <link rel="apple-touch-icon" href="/images/logos/logo_cropped_192.png" />
-  <link rel="icon" href="/images/logos/logo_cropped_192.png" sizes="192x192" />
-  <link rel="icon" href="/images/logos/logo_cropped_96.png" sizes="96x96" />
-  <link rel="icon" href="/images/logos/logo_cropped_64.png" sizes="64x64" />
-  <link rel="icon" href="/images/logos/logo_cropped_32.png" sizes="32x32" />
-  <link rel="icon" href="/images/logos/logo_cropped_16.png" sizes="16x16" />
-  <link rel="shortcut icon" href="/images/logos/fav.icon" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="/images/logos/fav.icon" />
+  <meta property="og:description" content="" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="/assets/logo/logo.png" />
+  <link rel="canonical" href="" />
+  <link rel="apple-touch-icon" href="/assets/logo/logo.png" />
+  <link rel="icon" href="/assets/logo/logo.png" sizes="192x192" />
+  <link rel="icon" href="/assets/logo/logo.png" sizes="96x96" />
+  <link rel="icon" href="/assets/logo/logo.png" sizes="64x64" />
+  <link rel="icon" href="/assets/logo/logo.png" sizes="32x32" />
+  <link rel="icon" href="/assets/logo/logo.png" sizes="16x16" />
+  <link rel="shortcut icon" href="/assets/logo/fav.icon" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="/assets/logo/fav.icon" />
   <link rel="stylesheet" href="/css/style.css" />
   <link rel="stylesheet" href="/css/masonry.css" />
   <title></title>
@@ -79,46 +77,41 @@
 </section>
 <script>
         window.addEventListener("load", function () {
-                gsap.set(".flair", { xPercent: 1, yPercent: -1 });
-                let xSetter = gsap.quickSetter(".flair", "x", "px") //apply it to the #id element's x property and append a "px" unit
-                let ySetter = gsap.quickSetter(".flair", "y", "px") //apply it to the #id element's x property and append a "px" unit
-                const width = window.innerWidth;
-                const height = window.innerHeight;
-                const herowrap = document.querySelector(".hero-img-wrap");
-                document.querySelector("body").addEventListener("mousemove", (e) => {
-                        let x = e.clientX * 0.01;
-                        let y = e.clientY * 0.01;
-                        herowrap.style.transform = "translate(" + x + "px," + y + "px)";
-                })
-                document.querySelector(".h1-wrapper").addEventListener("mousemove", e => {
-                        xSetter(e.x)
-                        ySetter(e.y)
-                });
-                document.querySelector(".a1").addEventListener("mouseenter", e => {
-                        document.querySelector(".flair").style.width = "500px;"
-                })
-                document.querySelector(".a1").addEventListener("mouseleave", () => {
-                })
-                document.querySelector(".a2").addEventListener("mouseover", () => {
-                        document.querySelector(".h1-wrapper").classList.add("trigger")
-                        document.querySelector(".h1-wrapper").classList.add("triggerposter")
-                })
-                document.querySelector(".a2").addEventListener("mouseleave", () => {
-                        document.querySelector(".h1-wrapper").classList.remove("triggerposter")
-                        // setTimeout(() => {
-                        document.querySelector(".h1-wrapper").classList.remove("trigger")
-                        // }, 500);
-                })
-                document.querySelector(".a3").addEventListener("mouseover", () => {
-                        document.querySelector(".h1-wrapper").classList.add("trigger")
-                        document.querySelector(".h1-wrapper").classList.add("triggerabout")
-                })
-                document.querySelector(".a3").addEventListener("mouseleave", () => {
-                        document.querySelector(".h1-wrapper").classList.remove("triggerabout")
-                        // setTimeout(() => {
-                        document.querySelector(".h1-wrapper").classList.remove("trigger")
-                        // }, 500);
-                })
+                if (window.innerWidth >= 1024) {
+
+                        const flair = document.querySelector(".flair");
+                        gsap.set(".flair", { xPercent: 1, yPercent: -1 });
+                        let xSetter = gsap.quickSetter(".flair", "x", "px") //apply it to the #id element's x property and append a "px" unit
+                        let ySetter = gsap.quickSetter(".flair", "y", "px") //apply it to the #id element's x property and append a "px" unit
+                        const width = window.innerWidth;
+                        const height = window.innerHeight;
+                        const herowrap = document.querySelector(".hero-img-wrap");
+                        // document.querySelector("body").addEventListener("mousemove", (e) => {
+                        // })
+                        document.querySelector("body").addEventListener("mousemove", e => {
+                                let x = e.clientX * 0.01;
+                                let y = e.clientY * 0.01;
+                                herowrap.style.transform = "translate(" + x + "px," + y + "px)";
+                        });
+                        document.querySelector(".h1-wrapper").addEventListener("mousemove", e => {
+                                flair.classList.add("show");
+                                xSetter(e.x)
+                                ySetter(e.y)
+                                document.querySelector(".a1").addEventListener("mouseenter", e => {
+                                        flair.style.backgroundImage = "url(/assets/politics/türki_mobile.webp)"
+                                })
+                                document.querySelector(".a2").addEventListener("mouseenter", () => {
+                                        flair.style.backgroundImage = "url(/assets/random2/wtptmno1_mobile.webp)"
+                                })
+                                document.querySelector(".a3").addEventListener("mouseover", () => {
+                                        flair.style.backgroundImage = "url(/assets/politics/globalplayer_mobile.webp)"
+
+                                })
+                        });
+                        document.querySelector(".h1-wrapper").addEventListener("mouseleave", e => {
+                                document.querySelector(".flair").classList.remove("show");
+                        });
+                }
         });
 </script>
   </main>
@@ -127,23 +120,23 @@
     window.addEventListener("load", function () {
       const overlay1 = document.querySelector('.transition-overlay1');
       const overlay2 = document.querySelector('.transition-overlay2');
-      let duration = 0.5;
+      let duration = 1;
       if (window.innerWidth > 800) {
         duration = 1;
       }
-      const currentPath = window.location.pathname;
+      // const currentPath = window.location.pathname;
       // if (currentPath === "/" || currentPath === "/personaldienstleistung-frankfurt" || currentPath === "/personaldienstleistung-memmingen" || currentPath === "/karriere/lagermitarbeiter-flughafen-leipzig" || currentPath === "/karriere/sicherheitsmitarbeiter-flughafen-frankfurt") {
       //   overlay2.style.display = 'none';
       // }  
       // else {
       gsap.to(overlay2, {
-        duration: duration,
-        width: '0',
+        duration: duration + 0.6,
+        width: 0,
         ease: 'power2.out',
       });
       // }
 
-      document.querySelectorAll('.inner-direct').forEach(link => {
+      document.querySelectorAll('a').forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           const url = e.currentTarget.href;

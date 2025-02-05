@@ -1,16 +1,12 @@
 ---
 layout: base.njk
-metatitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
-description: "Entdecken Sie maßgeschneiderte Personallösungen, effiziente Rekrutierung und gezielte Personalbeschaffung
-mit unserem erfahrenen Team."
-ogtitle: "Karatronics - Ihr Personalmanagement in Frankfurt"
-ogdescription: "Karatronics - Ihr Personalmanagement in Frankfurt / Umgebung"
-ogurl: "https://karatronics.de"
-canonical: "https://karatronics.de"
-oglocale: "de_DE"
+metatitle: "Rebelart"
+description: ""
+ogtitle: ""
+ogdescription: ""
+ogurl: ""
+canonical: ""
 style: "/css/masonry.css"
-mobile: "mobile"
-tablet: "tablet"
 ---
 
 <section class="hero">
@@ -51,45 +47,40 @@ tablet: "tablet"
 </section>
 <script>
         window.addEventListener("load", function () {
-                gsap.set(".flair", { xPercent: 1, yPercent: -1 });
-                let xSetter = gsap.quickSetter(".flair", "x", "px") //apply it to the #id element's x property and append a "px" unit
-                let ySetter = gsap.quickSetter(".flair", "y", "px") //apply it to the #id element's x property and append a "px" unit
-                const width = window.innerWidth;
-                const height = window.innerHeight;
-                const herowrap = document.querySelector(".hero-img-wrap");
-                document.querySelector("body").addEventListener("mousemove", (e) => {
-                        let x = e.clientX * 0.01;
-                        let y = e.clientY * 0.01;
-                        herowrap.style.transform = "translate(" + x + "px," + y + "px)";
-                })
-                document.querySelector(".h1-wrapper").addEventListener("mousemove", e => {
-                        xSetter(e.x)
-                        ySetter(e.y)
-                });
-                document.querySelector(".a1").addEventListener("mouseenter", e => {
-                        document.querySelector(".flair").style.width = "500px;"
-                })
-                document.querySelector(".a1").addEventListener("mouseleave", () => {
-                })
-                document.querySelector(".a2").addEventListener("mouseover", () => {
-                        document.querySelector(".h1-wrapper").classList.add("trigger")
-                        document.querySelector(".h1-wrapper").classList.add("triggerposter")
-                })
-                document.querySelector(".a2").addEventListener("mouseleave", () => {
-                        document.querySelector(".h1-wrapper").classList.remove("triggerposter")
-                        // setTimeout(() => {
-                        document.querySelector(".h1-wrapper").classList.remove("trigger")
-                        // }, 500);
-                })
-                document.querySelector(".a3").addEventListener("mouseover", () => {
-                        document.querySelector(".h1-wrapper").classList.add("trigger")
-                        document.querySelector(".h1-wrapper").classList.add("triggerabout")
-                })
-                document.querySelector(".a3").addEventListener("mouseleave", () => {
-                        document.querySelector(".h1-wrapper").classList.remove("triggerabout")
-                        // setTimeout(() => {
-                        document.querySelector(".h1-wrapper").classList.remove("trigger")
-                        // }, 500);
-                })
+                if (window.innerWidth >= 1024) {
+
+                        const flair = document.querySelector(".flair");
+                        gsap.set(".flair", { xPercent: 1, yPercent: -1 });
+                        let xSetter = gsap.quickSetter(".flair", "x", "px") //apply it to the #id element's x property and append a "px" unit
+                        let ySetter = gsap.quickSetter(".flair", "y", "px") //apply it to the #id element's x property and append a "px" unit
+                        const width = window.innerWidth;
+                        const height = window.innerHeight;
+                        const herowrap = document.querySelector(".hero-img-wrap");
+                        // document.querySelector("body").addEventListener("mousemove", (e) => {
+                        // })
+                        document.querySelector("body").addEventListener("mousemove", e => {
+                                let x = e.clientX * 0.01;
+                                let y = e.clientY * 0.01;
+                                herowrap.style.transform = "translate(" + x + "px," + y + "px)";
+                        });
+                        document.querySelector(".h1-wrapper").addEventListener("mousemove", e => {
+                                flair.classList.add("show");
+                                xSetter(e.x)
+                                ySetter(e.y)
+                                document.querySelector(".a1").addEventListener("mouseenter", e => {
+                                        flair.style.backgroundImage = "url(/assets/politics/türki_mobile.webp)"
+                                })
+                                document.querySelector(".a2").addEventListener("mouseenter", () => {
+                                        flair.style.backgroundImage = "url(/assets/random2/wtptmno1_mobile.webp)"
+                                })
+                                document.querySelector(".a3").addEventListener("mouseover", () => {
+                                        flair.style.backgroundImage = "url(/assets/politics/globalplayer_mobile.webp)"
+
+                                })
+                        });
+                        document.querySelector(".h1-wrapper").addEventListener("mouseleave", e => {
+                                document.querySelector(".flair").classList.remove("show");
+                        });
+                }
         });
 </script>

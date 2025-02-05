@@ -23,16 +23,19 @@ img {
 
 section {
   padding: 24px 32px;
+  width: calc(100% - 16px);
+
 }
 
 section:nth-child(even) {
-  margin-right: -32px;
+  margin-right: -20px;
   text-align: left;
 }
 
 section:nth-child(odd) {
-  margin-left: -32px;
+  margin-left: -24px;
   text-align: right;
+
 }
 
 @media screen and (max-width:1024px) {
@@ -79,6 +82,7 @@ section:nth-child(odd) {
     width: 450px;
   }
 }
+
 
 @media screen and (min-width: 850px) and (max-width: 1024px) {
   .wrapper {

@@ -13,7 +13,8 @@ a {
     color: white;
     text-decoration: none;
 }
-p{
+
+p {
     line-height: 180%;
 }
 
@@ -48,56 +49,92 @@ body {
     font-family: 'Inter';
     --space: 0.4;
 }
+
 .transition-overlay1 {
     position: fixed;
     top: 0;
     left: 0;
-    width: 0;
+    width: 0%;
     height: 100%;
-    background: #0B1D33;
-    z-index: 100000000
+    background-color: #aaa;
+    z-index: 100000000;
 }
+
+.transition-overlay1
+,.transition-overlay2 
+{
+    background-image: url("/assets/random2/loteosno1_mobile.webp");
+    background-size:cover;
+    background-repeat:repeat-x;
+    background-position: center;
+}
+
+.transition-overlay2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #aaa;
+    z-index: 10000000;
+}
+section{
+    position: relative;
+    z-index: 1000;
+}
+
 /****** POSTER*****/
 
-.poster{
+.poster {
     padding: 0 32px;
     max-width: 800px;
     margin: auto;
 }
-.poster-navigation{
+
+.poster-navigation {
     padding: 32px 32px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.poster-navigation a{
+
+.poster-navigation a {
     color: white;
 }
-.poster h1{
+
+.poster h1 {
     font-size: 32px;
     margin-bottom: 32px;
 }
-.poster ul{
+
+.poster ul {
     margin: 32px 0 0 16px;
 }
-.poster ul li{
+
+.poster ul li {
     margin: 8px;
 }
-footer{
+
+footer {
     padding: 32px;
 }
-footer p, a {
+
+footer p,
+a {
     font-size: 14px;
 }
-footer div{
+
+footer div {
     margin: 24px 0;
     display: flex;
     flex-direction: column;
 }
-footer div h3{
+
+footer div h3 {
     margin-bottom: 8px;
 }
-footer div a{
+
+footer div a {
     padding: 4px 0;
     margin: 8px 0;
 }
@@ -105,18 +142,24 @@ footer div a{
 /****** POSTER*****/
 /****** About *****/
 /****** About *****/
+@media screen and(min-width: 400px) {
 
-.transition-overlay2 {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #0B1D33;
-    z-index: 100000000
+    .transition-overlay1,
+    .transition-overlay2 {
+        background-size: 300px;
+    }
 }
+
+@media screen and(min-width: 600px) {
+
+    .transition-overlay1,
+    .transition-overlay2 {
+        background-size: 400px;
+    }
+}
+
 @media screen and (min-width: 750px) {
-    footer{
+    footer {
         max-width: 800px;
         margin: auto;
         display: flex;
@@ -124,27 +167,135 @@ footer div a{
         justify-content: space-between;
         align-items: flex-end;
     }
-    footer p{
+
+    footer p {
         margin-bottom: 36px;
     }
+}
 
+.hero h1 {
+    font-weight: 900;
 }
+
+@media screen and (max-width: 400px) {
+    .hero h1 {
+        margin-bottom: 16px;
+        font-size: 48px;
+        line-height: 100%;
+    }
+
+    .h-line-wrap,
+    .h-line-wrap a {
+        padding: 8px 0;
+        font-size: 18px;
+    }
+
+    .copyright,
+    .copyright a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    .hero h1 {
+        margin-bottom: 16px;
+        font-size: 56px;
+    }
+
+    .h-line-wrap,
+    .h-line-wrap a {
+        padding: 8px 0;
+        font-size: 20px;
+    }
+
+    .copyright,
+    .copyright a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .hero h1 {
+        margin-bottom: 16px;
+        font-size: 72px;
+    }
+
+    .h-line-wrap,
+    .h-line-wrap a {
+        padding: 8px 0;
+        font-size: 22px;
+    }
+
+    .copyright,
+    .copyright a {
+        font-size: 12px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
-    .hero-img{
-        width: 100%;
-        height: auto;
-    }
-    .title{
+    .hero {
+        height: 100vh;
         position: relative;
-        font-size: 32px;
-        font-weight: 900;
-        z-index: 100;
+        width: 100vw;
+        overflow: hidden;
     }
-    .h1-wrapper{
-        margin: -128px 32px 0;
+
+    .hero-img {
+        height: 100vh;
+        width: auto;
+    }
+
+    .hero-row {
+        position: relative;
+    }
+
+    .hero-img-wrap {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .hero-links {
+        position: absolute;
+        bottom: 64px;
+        left: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 24px 16px;
+    }
+
+    .hero h1 {
+        margin-bottom: 16px;
+        line-height: 100%;
+    }
+
+    .h-line-wrap,
+    .h-line-wrap a {
+        padding: 8px 0;
+    }
+
+    .copyright {
+        bottom: 24px;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 32px;
+    }
+
+    .copyright a {
+        margin: 4px;
     }
 }
+
 @media screen and (min-width: 1024px) {
+
+    .transition-overlay1,
+    .transition-overlay2 {
+        background-size: 500px;
+    }
+
     .hero {
         width: 100vw;
         height: 100vh;
@@ -163,7 +314,12 @@ footer div a{
         transition: transform 0.1s cubic-bezier(0.215, 0.610, 0.355, 1);
     }
 
+    .hover-flex {
+        padding-right: 32px;
+    }
+
     .h1-wrapper {
+        position: relative;
     }
 
     .hero h1 {
@@ -171,7 +327,6 @@ footer div a{
         line-height: 80%;
         position: relative;
         margin-bottom: 1vw;
-        font-weight: 900;
         letter-spacing: -0.5vw;
         margin-left: -5vw;
     }
@@ -264,6 +419,7 @@ footer div a{
 
     .hero-img-wrap {
         position: relative;
+        transition: transform 200ms linear;
     }
 
     .hero-img {
@@ -301,15 +457,15 @@ footer div a{
         text-shadow: 1px 1px white;
     }
 
-    .a1 a{
+    .a1 a {
         margin-left: 7vw;
     }
 
-    .a2 a{
+    .a2 a {
         margin-left: 11.5vw;
     }
 
-    .a3 a{
+    .a3 a {
         margin-left: 16.5vw;
     }
 
@@ -362,17 +518,27 @@ footer div a{
     .a3-line {
         left: 16.2vw;
     }
+
     .flair {
+        visibility: hidden;
+        opacity: 0;
         width: 100px;
         height: 100px;
         position: fixed;
         top: 0;
         left: 0;
         pointer-events: none;
-        width: 200px;
-        height: 200px;
-        background-color: aliceblue;
-        transition: all 500ms linear;
-      }
+        width: 140px;
+        height: 196px;
+        background-color: transparent;
+        transition: transform 500ms linear, opacity 0.3s 0.2s linear, visibility 0.3s 0.2s linear;
+        background-size: cover;
+    }
+
+    .flair.show {
+        visibility: visible;
+        opacity: 1;
+    }
+
 
 }
