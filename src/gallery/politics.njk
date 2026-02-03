@@ -12,97 +12,95 @@ style: "/css/masonry.css"
 
 <head>
   <style>
-    @screen and (min-width: 1024px) {
-      .grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-      }
+    .grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
-      .grid-item {
-        position: relative;
-        margin: 16px;
-        cursor: pointer;
-      }
+    .grid-item {
+      position: relative;
+      margin: 16px;
+      cursor: pointer;
+    }
 
-      .thumb {
-        display: block;
-        max-width: 300px;
-      }
+    .thumb {
+      display: block;
+      max-width: 300px;
+    }
 
-      /* ---------- Hover overlay ---------- */
+    /* ---------- Hover overlay ---------- */
 
-      .image-overlay {
-        position: absolute;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.8);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 200ms ease;
-      }
+    .image-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      transition: opacity 200ms ease;
+    }
 
-      .image-info {
-        color: #fff;
-        font-size: 24px;
-        font-weight: 700;
-      }
+    .image-info {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+    }
 
-      .grid-item:hover .image-overlay {
-        opacity: 1;
-      }
+    .grid-item:hover .image-overlay {
+      opacity: 1;
+    }
 
-      /* ---------- Fullscreen modal ---------- */
+    /* ---------- Fullscreen modal ---------- */
 
-      .show-image {
-        position: fixed;
-        inset: 0;
-        background: rgba(0, 0, 0, 0.85);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        z-index: 999999;
+    .show-image {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.85);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 999999;
 
-        opacity: 0;
-        pointer-events: none;
-        transition: opacity 200ms ease;
-      }
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 200ms ease;
+    }
 
-      .show-image.visibility-show {
-        opacity: 1;
-        pointer-events: auto;
-      }
+    .show-image.visibility-show {
+      opacity: 1;
+      pointer-events: auto;
+    }
 
+    .show-inner {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+      max-width: 90vw;
+      max-height: 90vh;
+    }
+
+    .show-img {
+      max-width: 60vw;
+      max-height: 80vh;
+    }
+
+    .show-p {
+      color: #fff;
+      font-size: 24px;
+      font-weight: 700;
+    }
+
+    /* ---------- Mobile ---------- */
+
+    @media (max-width: 800px) {
       .show-inner {
-        display: flex;
-        gap: 32px;
-        align-items: center;
-        max-width: 90vw;
-        max-height: 90vh;
+        flex-direction: column;
       }
 
       .show-img {
-        max-width: 60vw;
-        max-height: 80vh;
-      }
-
-      .show-p {
-        color: #fff;
-        font-size: 24px;
-        font-weight: 700;
-      }
-
-      /* ---------- Mobile ---------- */
-
-      @media (max-width: 800px) {
-        .show-inner {
-          flex-direction: column;
-        }
-
-        .show-img {
-          max-width: 90vw;
-        }
+        max-width: 90vw;
       }
     }
   </style>
@@ -2078,10 +2076,6 @@ style: "/css/masonry.css"
     }
 </script>  -->
 <script>
-  const showhover = document.querySelector(".show-hover");
-  showhover.addEventListener("click", () => {
-    showhover.classList.toggle("unfold");
-  });
   if (window.innerWidth >= 800) {
     var grid = document.querySelector(".grid");
     var msnry = new Masonry(grid, {
@@ -2138,5 +2132,53 @@ style: "/css/masonry.css"
         document.body.style.overflow = "";
       }
     }
+    // const modal = document.getElementById("imageModal");
+    // const modalImg = modal.querySelector(".show-img");
+    // const modalText = modal.querySelector(".show-p");
+
+    // const gridItems = document.querySelectorAll(".grid-item");
+
+    // // Open modal
+    // gridItems.forEach((item) => {
+    //   item.addEventListener("click", () => {
+    //     const img = item.querySelector("img");
+
+    //     modalImg.src = img.src;
+    //     modalText.textContent = img.alt || "";
+
+    //     modal.classList.add("visibility-show");
+
+    //     // If using Locomotive Scroll
+    //     if (window.locoScroll) {
+    //       window.locoScroll.stop();
+    //     } else {
+    //       document.body.style.overflow = "hidden";
+    //     }
+    //   });
+    // });
+
+    // // Close modal on background click
+    // modal.addEventListener("click", (e) => {
+    //   if (e.target === modal) {
+    //     closeModal();
+    //   }
+    // });
+
+    // // Close on ESC
+    // document.addEventListener("keydown", (e) => {
+    //   if (e.key === "Escape") {
+    //     closeModal();
+    //   }
+    // });
+
+    // function closeModal() {
+    //   modal.classList.remove("visibility-show");
+
+    //   if (window.locoScroll) {
+    //     window.locoScroll.start();
+    //   } else {
+    //     document.body.style.overflow = "";
+    //   }
+    // }
   }
 </script>
