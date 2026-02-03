@@ -24,7 +24,6 @@ img {
 section {
   padding: 24px 32px;
   width: calc(100% - 16px);
-
 }
 
 section:nth-child(even) {
@@ -35,19 +34,22 @@ section:nth-child(even) {
 section:nth-child(odd) {
   margin-left: -24px;
   text-align: right;
-
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
   h2,
   p {
     opacity: 0;
     transform: translateY(48px);
-    transition: 1100ms transform linear, 100ms 1000ms opacity linear;
+    transition:
+      1100ms transform linear,
+      100ms 1000ms opacity linear;
   }
 
   p {
-    transition: 500ms transform linear, 100ms 400ms opacity linear;
+    transition:
+      500ms transform linear,
+      100ms 400ms opacity linear;
   }
 
   h2.is-inview,
@@ -83,7 +85,6 @@ section:nth-child(odd) {
   }
 }
 
-
 @media screen and (min-width: 850px) and (max-width: 1024px) {
   .wrapper {
     padding: 64px 0;
@@ -110,8 +111,7 @@ section:nth-child(odd) {
   }
 }
 
-@media screen and (min-width:1024px) {
-
+@media screen and (min-width: 1024px) {
   /*** LOCOMOTIVE SCROLL ***/
   html.has-scroll-smooth {
     overflow: hidden;
@@ -153,7 +153,9 @@ section:nth-child(odd) {
     width: 11px;
     height: 100%;
     transform-origin: center right;
-    transition: transform 0.3s, opacity 0.3s;
+    transition:
+      transform 0.3s,
+      opacity 0.3s;
     opacity: 0;
   }
 
@@ -206,17 +208,17 @@ section:nth-child(odd) {
   h2,
   p {
     width: fit-content;
-    opacity: 0;
-    transition: 100ms 400ms opacity linear;
+    /* opacity: 0; */
+    /* transition: 100ms 400ms opacity linear; */
   }
 
   p {
-    transition-delay: 500ms;
+    /* transition-delay: 500ms; */
   }
 
   h2.is-inview,
   p.is-inview {
-    opacity: 1;
+    /* opacity: 1; */
   }
 
   .wrapper {
@@ -258,35 +260,35 @@ section:nth-child(odd) {
   }
 }
 @media screen and (min-width: 1440px) {
-  img{
+  img {
     width: 350px;
   }
-  h2{
+  h2 {
     font-size: 48px;
   }
-  p{
+  p {
     font-size: 24px;
   }
 }
 @media screen and (min-width: 1680px) {
-  img{
+  img {
     width: 400px;
   }
-  h2{
-    font-size: 56px;  
+  h2 {
+    font-size: 56px;
   }
-  p{
+  p {
     font-size: 28px;
   }
 }
 @media screen and (min-width: 1920px) {
-  img{
+  img {
     width: 450px;
   }
-  h2{
+  h2 {
     font-size: 64px;
   }
-  p{
+  p {
     font-size: 32px;
   }
 }
